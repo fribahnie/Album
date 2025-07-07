@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<album>
+<inhaltbild>../../../../Baukasten/Beispielbilder/IMG_1768.JPG</inhaltbild>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt>Dieser Eintrag erscheint im Inhaltsverzeichnis</inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund001.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Mein erstes Textfeld</kommentar>
+        <kommentar>Mein zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt>Ein Hund kommt selten allein.</inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund010.jpg</bilddatei>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund007.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Mein erstes Textfeld</kommentar>
+        <kommentar>Mein zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund006.jpg</bilddatei>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund003.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Mein erstes Textfeld</kommentar>
+        <kommentar>Mein zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Die Bilder stammen von Google</titel>
+    <inhalt>Süße Hundeblicke</inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund012.jpg</bilddatei>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund005.jpg</bilddatei>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund008.jpg</bilddatei>
+        <bilddatei>./Baukasten/Beispielbilder/Hunde/hund011.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Mein erstes Textfeld</kommentar>
+        <kommentar>Mein zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+</album>

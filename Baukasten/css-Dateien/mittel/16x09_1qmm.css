@@ -1,0 +1,52 @@
+
+div.rahmen   { position:absolute; 
+	       top:137px;
+	       left:210px; }
+
+div.bild     { position:absolute; 
+	       top:227px;   
+	       left:301px; }
+
+div.texto    { position:absolute; 
+	       top:816px; 
+	       left:301px;
+	       width:838px;  
+	       border:0px solid transparent; 
+	       padding:0px; 
+	       text-align:left; 
+	       color:rgb(255,255,255)}
+
+div.textu    { position:absolute; 
+	       top:849px; 
+	       left:301px;
+	       width:838px;  
+	       border:0px solid transparent; 
+	       padding:0px; 
+	       text-align:left; 
+	       color:rgb(255,255,255)}
+
+div.ueber     { position:absolute; top:16px; width:1400px;  
+		left:20px; font-size:16px; font-weight:600;
+		border:0px solid transparent; padding:0px; text-align:center; }
+
+div.seite     { position:absolute;
+		top:830px;
+		width:120px;  
+		left:1224px;
+		border:0px solid transparent;
+		padding:0px;
+		font-size:12px;
+		font-weight:normal;
+		text-align:left;
+		color:rgb(255,255,255); }
+
+
+div.container { position:absolute; top:50%; margin-top:-429px;
+		width:1440px; height:858px; left:50%; 
+                margin-left:-720px; font-size:14px;
+		border:0px solid #804000; padding:0px; }
+
+div.seiteback { position:absolute; top:853px; left:1224px;}
+div.seitetop  { position:absolute; top:853px; left:1296px; }
+div.seitevor  { position:absolute; top:853px; left:1368px;} 
+

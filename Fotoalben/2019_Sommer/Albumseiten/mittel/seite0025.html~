@@ -1,0 +1,90 @@
+﻿<!DOCTYPE HTML>
+<html lang="de"> 
+  <head>
+    <title>2019_Sommer</title>
+    <link rel="stylesheet" type="text/css" href="../../../../Baukasten/mittel/16x09_4qom_qor_qul_qum.css" />
+    <meta name="author" content="Frieder Bahret" >
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body style="color:rgb(255,255,255);
+	       background-color:rgb(65,40,73)";>
+    <!--
+      -->
+    <nav>
+      <div class="seiteback">
+	<a href="./seite0024.html" accesskey="b">
+	  <img src="../../../../Baukasten/NavBilder/knopf_back.jpg" width="33" alt="back" />
+	</a>
+      </div>
+      <div class="seitetop">
+	<a href="./seite0001.html" accesskey="t">
+	  <img src="../../../../Baukasten/NavBilder/knopf_top.jpg" width="33" alt="top" />
+	</a>
+      </div>
+      <div class="seitevor">
+	<a href="./seite0026.html" accesskey="n">
+	  <img src="../../../../Baukasten/NavBilder/knopf_next.jpg" width="33" alt="next" />
+	</a>
+      </div>
+    </nav>
+
+    <main class="container" >
+      <div class="ueber">Herrliches Wetter am Bodensee!</div>
+
+    <!-- Text oben links: -->
+      <div class="textol">Am letzten Tag fing sich Barbara noch etwas ein.</div>
+
+      <!-- Text unten rechts: -->
+      <div class="textur">Die Nachwirkungen waren dann
+allerdings weniger schön.</div>
+
+      <!-- Seitenangabe:  -->
+      <div class="seite">Seite 25/30</div>
+      
+    <!-- Obere Bilderzeile: -->
+    <!-- Bild links: -->
+      <div class="rahmenol">
+	<img src="../../../../Baukasten/RahmenBilder/rahmen572breit.jpg"   alt="Rahmen" />
+      </div>
+
+      <div class="bildol">
+	<a href="../../Einzelseiten/mittel/einzel0076.html">
+	  <img src="../../../../../2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220509.JPG" width="510"  alt=" " />
+	</a>		
+      </div>
+
+    <!-- Bild rechts: -->
+      <div class="rahmenor">
+	<img src="../../../../Baukasten/RahmenBilder/rahmen572breit.jpg"  alt="Rahmen" />
+      </div>
+
+      <div class="bildor">
+	<a href="../../Einzelseiten/mittel/einzel0077.html">
+	  <img src="../../../../../2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220513.JPG" width="510" alt=" " />
+	</a>	
+      </div>
+
+    <!-- Bild unten links: -->
+      <div class="rahmenul">
+	<img src="../../../../Baukasten/RahmenBilder/rahmen572breit.jpg"  alt="Rahmen" />
+      </div>
+      <div class="bildul">
+	<a href="../../Einzelseiten/mittel/einzel0078.html">
+	  <img src="../../../../../2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220520.JPG" width="510"  alt=" " />
+	</a>
+      </div>
+
+    <!-- Bild unten rechts -->
+      <div class="rahmenur">
+	<img src="../../../../Baukasten/RahmenBilder/rahmen572breit.jpg"  alt="Rahmen" />
+      </div>
+      <div class="bildur">
+	<a href="../../Einzelseiten/mittel/einzel0079.html">
+	  <img src="../../../../../2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220482.JPG" width="510" alt=" " />
+	</a>
+      </div>
+    </main>
+  </body>
+</html>

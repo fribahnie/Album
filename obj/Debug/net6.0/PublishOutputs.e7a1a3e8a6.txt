@@ -1,0 +1,12 @@
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/Album
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/Album.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/Album.deps.json
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/Album.runtimeconfig.json
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/Album.pdb
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/AtkSharp.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/CairoSharp.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/GdkSharp.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/GioSharp.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/GLibSharp.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/GtkSharp.dll
+/home/frieder/csharp/gtk3-apps/Album/bin/Debug/net6.0/publish/PangoSharp.dll

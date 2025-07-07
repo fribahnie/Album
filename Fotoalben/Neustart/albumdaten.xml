@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<album>
+<inhaltbild>../../../../Baukasten/Beispielbilder/IMG_1768.JPG</inhaltbild>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Anleitung: Schreibe eigene Texte. Ersetze die Defaultbilder per 'Drag and Drop'
+    oder 'Copy and Paste'.</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200403.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Bildauswahl z.B. mit Hilfe des integrierten
+Dateimanagers. 'Paste': Rechte Maustaste</kommentar>
+        <kommentar>Falls das Album nicht mit einem Einzelbild
+beginnen soll, sollten zuerst weitere 
+Seiten erstellt werden.
+Danach kann auch diese Starteite problemlos
+gelöscht werden.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200399.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200400.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200404.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P559.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boQcuQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/P545.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P547.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+</album>

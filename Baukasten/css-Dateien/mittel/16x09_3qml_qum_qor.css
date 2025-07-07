@@ -1,0 +1,39 @@
+
+div.rahmenl  { position:absolute; top:271px; 
+	       left:10px;  }
+div.rahmenu  { position:absolute; top:508px; 
+	       left:582px; }
+div.rahmenr  { position:absolute; top:78px; 
+	       left:868px; }
+
+div.bildl  { position:absolute; top:300px;  
+	     left:40px; }
+div.bildu  { position:absolute; top:537px; 
+	     left:612px;  }
+div.bildr  { position:absolute; top: 107px; 
+	     left:898px; }
+
+div.ueber  { position:absolute; top:16px; width:1400px;  
+             left:20px; font-size:16px; font-weight:600;
+	     border:0px solid transparent; padding:0px; text-align:center; }
+
+div.texto  { position:absolute; top:85px; 
+	     width:468px; left:59px; font-weight:500;
+             padding:0px; text-align:left; }
+
+div.textu  { position:absolute; top:669px; 
+	     width:468px; left:59px; font-weight:500;
+             padding:0px; text-align:left; }
+
+div.seite  { position:absolute; top:830px; width:120px;  
+             left:1224px;
+	     border:0px solid transparent; padding:0px;
+	     font-size:12px; font-weight:normal; text-align:left; }
+
+div.container { position:absolute; top:50%; margin-top:-429px;
+		width:1440px; height:900px; left:50%; 
+                margin-left:-720px; font-size:14px;
+		border:0px solid #804000; padding:0px; }
+div.seiteback { position:absolute; top:851px; left:1224px;}
+div.seitetop  { position:absolute; top:851px; left:1296px; }
+div.seitevor  { position:absolute; top:851px; left:1368px;} 

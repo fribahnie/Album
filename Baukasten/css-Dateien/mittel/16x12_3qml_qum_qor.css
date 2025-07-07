@@ -1,0 +1,45 @@
+div.container { position:       absolute;
+		top:                 50%;
+		left:                50%; 
+		margin-top:       -426px;
+		width:            1440px;
+		height:            900px;
+                margin-left:      -720px;
+		font-size:          14px;
+		border:0px solid #804000;
+		padding:             0px;
+	      }
+/* v: mitte, h: links:  */
+
+div.rahmenml  { position:absolute; top:254px; left: 10px; }
+/* v: oben,  h: rechts: */
+
+div.rahmenor  { position:absolute; top: 40px; left:868px; }
+/* v: unten, h: rechts: */
+
+div.rahmenur  { position:absolute; top:468px; left:582px; }
+
+div.bildl     { position:absolute; top:287px; left: 57px; }
+div.bildr     { position:absolute; top: 73px; left:915px; }
+div.bildu     { position:absolute; top:501px; left:629px; }
+
+div.ueber  { position:absolute; top:16px; width:1400px;  
+             left:20px; font-size:16px; font-weight:bold;
+	     border:0px solid transparent; padding:0px; text-align:center; }
+
+div.texto  { position:absolute; top:73px; 
+	     width:468px; left:59px; font-weight:500;
+             padding:0px; text-align:left; }
+
+div.textu  { position:absolute; top:669px; 
+	     width:468px; left:59px; font-weight:500;
+             padding:0px; text-align:left; }
+
+div.seite  { position:absolute; top:830px; width:120px;  
+             left:1224px;
+	     border:0px solid transparent; padding:0px;
+	     font-size:12px; font-weight:normal; text-align:left; }
+
+div.seiteback { position:absolute; top:851px; left:1224px;}
+div.seitetop  { position:absolute; top:851px; left:1296px; }
+div.seitevor  { position:absolute; top:851px; left:1368px;} 

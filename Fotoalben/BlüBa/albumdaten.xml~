@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<album>
+  <inhaltbild>../../../../Baukasten/Beispielbilder/IMG_1768.JPG</inhaltbild>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Anleitung: Schreibe eigene Texte. Ersetze die Defaultbilder per 'Drag and Drop'
+oder 'Copy and Paste'.</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1710.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Bildauswahl z.B. mit Hilfe des integrierten
+Dateimanagers. 'Paste': Rechte Maustaste</kommentar>
+        <kommentar>Falls das Album nicht mit einem Einzelbild
+beginnen soll, sollten zuerst weitere 
+Seiten erstellt werden.
+Danach kann auch diese Starteite problemlos
+gelöscht werden.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boHcmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_10_27_Herbstimpressionen-Greutterwald,Korntal/IMG_2815.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_10_27_Herbstimpressionen-Greutterwald,Korntal/IMG_2807.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3aoQbuQdmH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/P545.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P547.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HP1210134.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boQcuQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1712.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1716.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buHcoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_09_23_BlüBa-Kürbis-Sandskulpturen-Märchengarten/IMG_2535.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_10_01_Herbst/IMG_2719.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1717.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1719.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1720.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4aoQcoQbuQduQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1721.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1730.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1731.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1738.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1740.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1741.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1742.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2bmQcoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1735.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/IMG_1734.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/P1220848.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/P1220849.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/P1220850.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_04_18_BlüBa/P1220855.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boHcmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+        <bilddatei>../../../Bilder/2021/2021_10_27_Herbstimpressionen-Greutterwald,Korntal/IMG_2815.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2021/2021_10_27_Herbstimpressionen-Greutterwald,Korntal/IMG_2789.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+</album>

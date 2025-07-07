@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<album>
+  <inhaltbild>../../../../Baukasten/Beispielbilder/IMG_1768.JPG</inhaltbild>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Der Biergarten im Altenzentrum: Hier ist gut
+    sein.</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2024/Biergarten/IMG_8857.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>2024 war Premiere. Wenn ich es recht verstanden habe, ging die Initiative dafür von Hans-Steffen Fischer aus.</kommentar>
+        <kommentar>Das Angebot wird gerne angenommen</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auHbmQdoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/HP1210037.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P547.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HP1210134.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amHcuQdoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/HP1210037.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P547.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P548.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boQcuQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Begegnugen im Biergarten</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2024/Biergarten/IMG_8848.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2024/Biergarten/IMG_8866.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Werner Bichler im Biergarten des Altenzentrums. Werner war einst zusammen mit
+Lothar Blanz mein Jungenschaftsleiter. Nun ist leider seine Frau Dorothee
+gestorben und er muss allein zurechtkommen. Er ist ein wandelndes Lexikon,  was die
+Geschichte Korntals anbelangt.</kommentar>
+        <kommentar>Martien Hartmann ist ein Original. Er ist sonntags regelmäßig auf dem Autobahnrastplatz Sindelfinger Wald 
+und versucht mit Fahrern aus Osteuropa ins Gespräch zu kommen, um sie zum Glauben einzuladen.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2024/Biergarten/IMG_8846.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2024/Biergarten/IMG_8863.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Auch der Weltliche Vorsteher der Brüdergemeinde, Dieter Weisser, lässt sich im Biergarten Currywurst und Pommes schmecken.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2bmQcoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200388.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200386.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Links oben</kommentar>
+        <kommentar>Zweites Textfeld: Mitte unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/P545.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P547.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boHcmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200396.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200398.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Links oben</kommentar>
+        <kommentar>Zweites Textfeld: Mitte etwas tiefer</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buHcoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200385.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200395.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Links oben</kommentar>
+        <kommentar>Zweites Textfeld: Mitte unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3aoQbuQdmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200401.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200402.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200403.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld:
+Links unten</kommentar>
+        <kommentar>Zweites Textfeld: Mitte oben</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auQboQdmH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_09_30_Familienfest/P1210654.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_09_30_Familienfest/P1210664.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_09_30_Familienfest/P1210656.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld:
+Links oben</kommentar>
+        <kommentar>Zweites Textfeld: 
+Mitte unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auQcoHduH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2011/11_01_10_portraets/P1070357.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2011/11_01_10_portraets/P1070387.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2011/11_01_10_portraets/P1070364.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Links oben</kommentar>
+        <kommentar>Zweites Textfeld: Mitte unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auHbmQdoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/HP1210037.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/P547.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HP1210134.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Mitte fast oben</kommentar>
+        <kommentar>Zweites Textfeld: Rechts unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auHcmHdoH</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_15_Frühling_Greutterwald/P1200719.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_15_Frühling_Greutterwald/P1200720.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_15_Frühling_Greutterwald/P1200721.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Links oben</kommentar>
+        <kommentar>Zweites Textfeld: Rechts unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4aoQcoQbuQduQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200399.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200400.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200404.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_04_11_Opas_Geburtstag/P1200405.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: 
+Rechts oben</kommentar>
+        <kommentar>Zweites Textfeld:
+Links unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Bilder/2018/2018_09_30_Familienfest/P1210672.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_09_30_Familienfest/P1210679.JPG</bilddatei>
+        <bilddatei>../../../Bilder/2018/2018_09_30_Familienfest/P1210677.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld: Links oben</kommentar>
+        <kommentar>Zweites Textfeld: Links unten</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2boQcuQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3aoQbuQdmQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_3.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_3.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3aoQbuQdmH</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1528.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amHcuQdoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1525.jpg</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_3.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auQcoHduH</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1526.jpg</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1528.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auHbmQdoH</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1525.jpg</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1528.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3auHcmHdoH</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1525.jpg</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1526.jpg</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/HQIMG_1528.jpg</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4aoQcoQbuQduQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_3.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_4.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_1.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_2.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_3.JPG</bilddatei>
+        <bilddatei>./Baukasten/DefaultBilder/Q16x09_4.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+</album>

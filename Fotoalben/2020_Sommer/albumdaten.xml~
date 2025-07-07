@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<album>
+  <inhaltbild>../../../../Baukasten/Beispielbilder/IMG_1768.JPG</inhaltbild>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Am Bodensee</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2020/2020_07_24_Fischbach_Bodensee/P1220817.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Die alte Villa</kommentar>
+        <kommentar>Sie ist denkmalgeschützt und bleibt erhalten.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Familienausflug</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2020/2020_07_24_Fischbach_Bodensee/P1220806.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2020/2020_07_24_Fischbach_Bodensee/P1220807.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2020/2020_07_24_Fischbach_Bodensee/P1220808.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Huckepack beim Papa</kommentar>
+        <kommentar>So kann man es auf dem Wasser aushalten.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Ein großer Park mit schönen, alten Bäumen umgibt die Gebäude</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220516.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220519.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220521.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220520.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Freie Wahl: Sonnig oder schattig.</kommentar>
+        <kommentar>feucht oder trocken</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>„… Köpfchen in das Wasser, Schwänzchen in die Höh’“</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220498.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220499.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220500.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220502.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Mein erstes Textfeld</kommentar>
+        <kommentar>Mein zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Der Zeppelin ist immer über dem See</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220503.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220504.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220505.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Mein erstes Textfeld</kommentar>
+        <kommentar>Mein zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Deine Überschrift</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220512.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220511.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Der Blick zurück auf 
+unser Gelände</kommentar>
+        <kommentar>Die Bucht lädt zum Baden ein</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Die Boote im Hafen</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220514.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>warten auf ihren Einsatz</kommentar>
+        <kommentar>Wenn erst mal Wochenende ist …</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Versuche mit dem breiten Format</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220513.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Unser Boot ist bereit. Wann fahren wir raus?</kommentar>
+        <kommentar>Der Bodensee bietet jede Menge Möglichkeiten an Action</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>2buQcoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Impressionen</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220513.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220506.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Noch ist hier alles ruhig.</kommentar>
+        <kommentar>Erinnerungen an den Grafen</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Nette Impressionen</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220513.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220506.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220509.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Bald ist bestimmt Hochbetrieb,</kommentar>
+        <kommentar>dann ist es vorbei mit der Ruhe.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>4boQdoQauQcuQ</format>
+    <bildformat>16x09</bildformat>
+    <titel>Der Abschied kann schwer fallen</titel>
+    <bilder>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220513.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220506.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220509.JPG</bilddatei>
+         <bilddatei>../../../Bilder/2019/2019_07_21_35.Hochzeitstag_Fischbach/P1220482.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Das sind doch noch einmal
+die selben Bilder!</kommentar>
+        <kommentar>Abendstimmung - Abschiedsstimmung</kommentar>
+    </kommentarliste>
+  </seite>
+</album>

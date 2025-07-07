@@ -1,0 +1,102 @@
+/*
+ Werte für die Größe 'mittel' bei 16 x 9 mit Basislinien:
+
+ Höhenangaben:
+ v_1: 248px = 40px + 416px/2 
+ v_2: 462px = 40px + 416px +  6px
+ v_3: 676px = 40px + 416px + 12px + 416px/2
+
+ Kopfleiste:    40px
+ Rahmenbreite: 562px
+ Rahmenhöhe:   339px
+ Rahmenhöhe/2: 170px
+ Bildbreite:   510px 
+ Bildhöhe:     287px
+ Bildhöhe/2:   143px
+ Bildbreite:   510px
+ Bildbreite/2: 255px
+ Fußleiste:     14px
+
+ 4 Bilder im Querformat (vert. Werte):
+ top rahmenoben:  v_1 - ( Rahmenhöhe / 2 ) : 248 - 170 =  78px
+ top rahmenunten: v_3 - ( Rahmenhöhe / 2 ) : 676 - 170 = 506px
+ top bildoben:    v_1 - ( Bildhöhe   / 2 ) : 248 - 143 = 105px
+ top bildunten:   v_3 - ( Bildhöhe   / 2 ) : 676 - 143 = 533px
+
+ Werte für 2 Bilder Größe 'mittel' bei 16 x 9 :
+ Rahmen             Bild:
+ oben:  left 582px  left 582px + 26px = 608px
+ unten: left 296px  left 296px + 26px = 322px
+
+
+==========================================================
+
+ Werte für die Größe 'mittel' bei 16 x 12 mit Basislinien:
+ gesamt: 2 * x + 4 * s + 5 * Rahmenbreite/2 = 2 * x + 4 * s + 5 * 281
+
+horizontale Werte:
+(Spaltenbreite 10px, Rahmenbreite 562px)
+ h_1:                     =   10px
+
+ h_3: 10 + 562 + 5        =  577px Rahmenmitte oben links
+      	       	 	  Rahmenstart:  577 - 281 = 296 Bild: 343px 
+ h_5: 20 + 2 * 562 + 5    = 1149px Rahmenmitte oben rechts
+      	       	     	  Rahmenstart: 1149 - 281 = 868 Bild: 915px
+ h_2: 10 + 562/2          =  291px Rahmenmitte unten links
+      	   		  Rahmenstart:  291 - 281 =  10 Bild:  57px
+ h_4: 20 + 3 * 281        =  863px Rahmenmitte unten rechts
+      	       		  Rahmenstart:  863 - 281 = 582 Bild: 629px
+ h_6: 20 + 5 * 281 + 5    = 1430px
+
+horiz. Versatz:
+(Rahmenbreite - Bildbreite)/2
+16x12:
+	= (562px - 468px)/2 = 47px
+	
+16x09:
+	= (562px - 502px)/2 = 30px
+
+vert. Versatz:
+(Rahmenhöhe - Bildhöhe)/2:
+16x12:
+	= (416px - 351px)/2 = 65px/2 = 33px
+16x09:
+	= (339px - 282px)/2 = 57px/2 = 29px
+
+Vertikale Werte:
+(Spaltenhöhe 12px, Rahmenhöhe 416px)
+ v_1: 248px =  40 + 208              = kopf + Rahmenhöhe/2
+ v_2: 462px =  40 + 416 +  6         = kopf + Rahmenhöhe + Spalte/2
+ v_3: 676px =  40 + 416 + 12 + 208   = kopf + Spalte + 3 * Rahmenhöhe/2
+ top_footer:   884px =  40 + 2 * 416 = kopf + 2 * Rahmenhöhe + Spalte
+ top_navi:     851px = 884 − 33      = top_footer − navi_höhe
+
+ 16x12:
+ Kopfleiste:    40px
+ Rahmenbreite: 562px
+ Rahmenhöhe:   416px
+ Bildbreite:   468px
+ Bildhöhe:     351px
+ Bildhöhe/2:   175px
+ Bildbreite:   468px
+ Bildbreite/2: 234px
+ Fußleiste:     16px
+ Spalte:        12px
+ 
+ 4 Bilder im Querformat:
+ top rahmenoben:   40px = v_1 - ( Rahmenhöhe / 2 ) = kopf
+ top bildoben:     73px = v_1 - ( Bildhöhe   / 2 ) = kopf + vert. Versatz
+ top rahmenunten: 468px = v_3 - ( Rahmenhöhe / 2 ) = kopf + Rahmenhöhe + Spalte
+ top bildunten:   501px = v_3 - ( Bildhöhe   / 2 ) = kopf + Rahmenhöhe + Spalte + vert. Versatz
+
+ Werte für 2 Bilder Größe 'mittel' bei 16 x 12 :
+ 
+oben:
+ top_Rahmen:              40px left: 586px
+ bildoben:                73px left: 633px
+
+unten:
+ top_Rahmen: v_2 + 6px = 468px left: 299px
+ bildunten:              501px left: 346px
+*/
+462 -208 = 254

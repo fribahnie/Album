@@ -1,0 +1,25 @@
+div.seite  { position:absolute; top:720px; width:120px;  
+             left:1320px;
+	     border:0px solid transparent; padding:0px;
+	     font-size:12px; font-weight:normal; text-align:left; color:rgb(255,255,255)}
+
+div.container { position:absolute; top:50%; margin-top:-429px;
+	      width:1440px; height:858px; left:50%; font-size:fontsizestr;
+	      margin-left:-720px; border:0px solid #804000; padding:0px;}
+
+div.gross    { position:absolute;  max-width:1420; width:1420px; max-height:858px; height:858px; 
+	       margin-left:auto; margin-right:auto;}
+div.hoch     { position:absolute; left:50%; margin-left:-399px;   }
+div.breit    { position:absolute; high:858px; left:148px;  }
+div.murks    { position:absolute; top:738px;  left:1320px; }
+div.blatt    { position:absolute; top:738px;  left:1368px; }
+div.zurueck  { position:absolute; top:786px;  left:1320px; }
+div.vor      { position:absolute; top:786px;  left:1368px; }
+
+img {
+  # border: 1px solid #ddd;
+  # border-radius: 0px;
+  # padding: 0px;
+  max-width: 1438px;
+  max-height: 870px;
+}

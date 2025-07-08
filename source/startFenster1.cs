@@ -159,7 +159,9 @@ namespace Startfenster
 			radiobutton3 = new RadioButton(radiobutton1, Localarray[7]);
 			radiobutton4 = new RadioButton(null, "Drehwinkel  90 (Foto)");
 			radiobutton5 = new RadioButton(radiobutton4, "Drehwinkel 270 (Handy)");
-			radiobutton5.Active = true;
+			if (Drehwinkel == 90) radiobutton4.Active = true;
+			else radiobutton5.Active = true;
+			// radiobutton5.Active = true;
 			radiobutton6 = new RadioButton(null, "ja");
 			radiobutton7 = new RadioButton(radiobutton6, "nein (Default)");
 			string wertstr = CopyImagesBool ? "true" : "false";

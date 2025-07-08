@@ -22,3 +22,4 @@
 /home/frieder/csharp/gtk3-apps/Album/obj/Release/net9.0/Album.pdb
 /home/frieder/csharp/gtk3-apps/Album/obj/Release/net9.0/Album.genruntimeconfig.cache
 /home/frieder/csharp/gtk3-apps/Album/obj/Release/net9.0/ref/Album.dll
+/home/frieder/csharp/gtk3-apps/Album/obj/Release/net9.0/Album.sourcelink.json

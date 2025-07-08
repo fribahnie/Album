@@ -15,7 +15,7 @@
  
 -->
 <DefaultWerte>
-  <copyimages>true</copyimages>
+  <copyimages>false</copyimages>
   <aktiv>true</aktiv>
   <fotoalben>Fotoalben</fotoalben>
   <bildformat>16x12</bildformat>

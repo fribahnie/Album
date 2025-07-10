@@ -31,11 +31,11 @@ Speichere das Programm auf C:\ irgendwo im Benutzerverzeichnis, also 'C:\Users\<
 ###Das Startfenster
 Nach dem Start öffnet sich zunächst das Startfenster. Es dient der Auswahl des gewünschen Fotoalbums und verschiedener Grundeinstellungen.
 
-![](/home/frieder/Bilder/Bildschirmfotos/Bildschirmfoto vom 2025-07-09 11-55-23.png)
+![](./Bildschirmfoto vom 2025-07-09 11-55-23.png)
 
 Ein kleines Demo-Album 'Meine_Hunde' existiert und kann studiert werden. Also einfach einmal 'Go!' wählen! Nun öffnet sich ein neues Fenster mit dem eigentlichen Vorschaueditor.
 
-![](/home/frieder/Bilder/Bildschirmfotos/Bildschirmfoto vom 2025-07-09 11-59-59.png)
+![](./Bildschirmfoto vom 2025-07-09 11-59-59.png)
 
 Probiere den Vorschaueditor aus! Du kannst durch des kleine Album blättern, die Beschriftung lesen und ändern oder auch neue Seiten erstellen. Wähle dazu im Menü 'Bearbeiten'->'Neue Seite' und dann die gewünschte Anzahl an Bildern, die die neue Seite enthalten soll. Das Menü bietet Dir anschließend mehrere Formatvorlagen an, von denen Du eine auswählst. Es erscheint die gewünschte Vorschauseite mit Default-Bildern. Per 'DragAndDrop' kannst Du nun die Default-Bilder durch Deine Bilder z.B. aus dem Windows-Explorer ersetzen. Einfach in das gewünschte Bildfeld rüberziehen und fertig! Wenn Du magst, wähle nun eine passende Überschrift, beschrifte die Bilder, erstelle einen Eintrag fürs Inhaltsverzeichnis.
 

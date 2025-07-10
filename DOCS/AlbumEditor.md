@@ -31,7 +31,7 @@ Speichere das Programm auf C:\ irgendwo im Benutzerverzeichnis, also 'C:\Users\<
 ### Das Startfenster
 Nach dem Start öffnet sich zunächst das Startfenster. Es dient der Auswahl des gewünschen Fotoalbums und verschiedener Grundeinstellungen.
 
-!(Album/DOCS/Bildschirmfoto11-55-23.png)
+![Das Startfenster](fribahnie/Album/DOCS/Bildschirmfoto11-55-23.png)
 
 Ein kleines Demo-Album 'Meine_Hunde' existiert und kann studiert werden. Also einfach einmal 'Go!' wählen! Nun öffnet sich ein neues Fenster mit dem eigentlichen Vorschaueditor.
 

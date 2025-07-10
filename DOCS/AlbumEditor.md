@@ -1,6 +1,6 @@
 # AlbumEditor Anleitung
 ## Voraussetzungen:
-Eine x64-CPU, Linux oder Windows 11.
+Eine x64-CPU, Linux oder Windows 11. Ein FullHD-Bildschirm oder ein 4K-Bildschirm.
 
 Außerdem müssen .NET9.0 Runtime, .NET Desktop Runtime 9.0 von Microsoft und GtkSharp.Runtime 3.24 installiert sein. Die Downloadadressen:
 
@@ -72,7 +72,7 @@ Der *zweite* Grund: Du möchtest das fertige Album jemand zukommen lassen. Es ge
 
 Der Vorschaueditor wird aufgerufen und zeigt mit einem Defaultbild die erste Seite des neuen Albums. Nun gilt all das, was oben bereits über das Album 'Meine Hunde' ausgeführt wurde. Du legst neue Seiten an und ersetzst mit DragAndDrop die Defaultbilder durch deine eigenen Bilder. Je nach Lust und Laune beschhriftest Du die Albumseiten und erstellst Einträge für das Inhaltsverzeichnis.
 
-##Sonderfall: Bilder auf dem Netzlaufwerk
+## Sonderfall: Bilder auf dem Netzlaufwerk
 Im Normalfall erwartet der AlbumEditor unter Windows 11 die Bilder im Laufwerk C:\ im Bilderordner. Sollten sich die Bilder auf einem Netzlaufwerk befinden, zum Beispiel dem Laufwerk Z:, ist das mit einer kleinen Veränderungen zu erreichen. Dafür öffnet man mit einem Texteditor im Verzeichnis 'Baukasten' das Verzeichnis 'Werte' und darin die Datei 'DefaultWerte.xml'. Die Zeile für das alternative Laufwerk ändert man ab zu: 
 
 > \<alternatdirectory>Z:\</alternatdirectory>

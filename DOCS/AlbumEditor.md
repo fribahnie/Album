@@ -22,7 +22,7 @@ oder
 
 herunterladen und entpacken.
 
-###Linux
+### Linux
 Das Programm muss irgendwo im Benutzerverzeichnis gespeichert sein. Darüber hinaus braucht es keine Installation. Das Programm erwartet die Bilder für die Alben im Bilderverzeichnis. Gestartet wird das Programm mit der Datei 'Album' ganz unten im Verzeichnis 'bin'. Anklicken genügt.
 
 ### Windows

@@ -1,4 +1,4 @@
-AlbumEditor folgt der Idee, analoge Fotoalben digital nachzubauen. Also nie mehr Bilder ausdrucken, einkleben, beschriften …!!! 
+AlbumEditor folgt der Idee, analoge Fotoalben digital nachzubauen. Also nie mehr Bilder ausdrucken, einkleben, beschriften…!!! 
 Erstelle Deine Alben mit den schönsten Erinnerungen und den eindrücklichsten Fotos einfach in digitaler Form!
 Voraussetzung ist lediglich ein FullHD- oder, noch besser, ein 4K-Bildschirm und ein Rechner mit Windows 11 oder Linux als Betriebssystem.
 

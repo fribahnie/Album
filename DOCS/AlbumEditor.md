@@ -1,5 +1,5 @@
-#AlbumEditor Anleitung
-##Voraussetzungen:
+# AlbumEditor Anleitung
+## Voraussetzungen:
 Eine x64-CPU, Linux oder Windows 11.
 
 Außerdem müssen .NET9.0 Runtime, .NET Desktop Runtime 9.0 von Microsoft und GtkSharp.Runtime 3.24 installiert sein. Die Downloadadressen:
@@ -25,17 +25,17 @@ herunterladen und entpacken.
 ###Linux
 Das Programm muss irgendwo im Benutzerverzeichnis gespeichert sein. Darüber hinaus braucht es keine Installation. Das Programm erwartet die Bilder für die Alben im Bilderverzeichnis. Gestartet wird das Programm mit der Datei 'Album' ganz unten im Verzeichnis 'bin'. Anklicken genügt.
 
-###Windows
+### Windows
 Speichere das Programm auf C:\ irgendwo im Benutzerverzeichnis, also 'C:\Users\<username>\...'. Es erwartet die Bilder im Bilderverzeichnis. Der Sonderfall, dass die Bilder nicht auf C: sondern auf einem anderen Laufwerk gespeichert sind, wird unten extra behandelt. Gestartet wird das Programm mit der Datei 'Album.exe' ganz unten im Verzeichnis von 'bin'. Anklicken genügt.
 
-###Das Startfenster
+### Das Startfenster
 Nach dem Start öffnet sich zunächst das Startfenster. Es dient der Auswahl des gewünschen Fotoalbums und verschiedener Grundeinstellungen.
 
-![](./Bildschirmfoto vom 2025-07-09 11-55-23.png)
+!(./Bildschirmfoto vom 2025-07-09 11-55-23.png)
 
 Ein kleines Demo-Album 'Meine_Hunde' existiert und kann studiert werden. Also einfach einmal 'Go!' wählen! Nun öffnet sich ein neues Fenster mit dem eigentlichen Vorschaueditor.
 
-![](./Bildschirmfoto vom 2025-07-09 11-59-59.png)
+!(./Bildschirmfoto vom 2025-07-09 11-59-59.png)
 
 Probiere den Vorschaueditor aus! Du kannst durch des kleine Album blättern, die Beschriftung lesen und ändern oder auch neue Seiten erstellen. Wähle dazu im Menü 'Bearbeiten'->'Neue Seite' und dann die gewünschte Anzahl an Bildern, die die neue Seite enthalten soll. Das Menü bietet Dir anschließend mehrere Formatvorlagen an, von denen Du eine auswählst. Es erscheint die gewünschte Vorschauseite mit Default-Bildern. Per 'DragAndDrop' kannst Du nun die Default-Bilder durch Deine Bilder z.B. aus dem Windows-Explorer ersetzen. Einfach in das gewünschte Bildfeld rüberziehen und fertig! Wenn Du magst, wähle nun eine passende Überschrift, beschrifte die Bilder, erstelle einen Eintrag fürs Inhaltsverzeichnis.
 
@@ -53,7 +53,7 @@ Mit der Taste F11 kann der Browser den gesamten Bildschirm nutzen. Nehmen wir an
 **Wir passen unsere Einstellungen an:**
 Sehr wahrscheinlich passen aber beim ersten Aufruf noch nicht alle Einstellungen. Das lässt sich normalerweise leicht ändern. Wenn die Darstellung der Bilder und der Bildschirm größenmäßig nicht zusammenpassen, dann liegt es vermutlich daran, dass eine Skalierung aktiv ist. Überprüfe also, ob beim Browser die Skalierung mit 100% eingestellt ist, und ob für die Skalierung des Bildschirms ebenfalls 100% gewählt sind. Ändere es andernfalls auf 100%. Falls die Beschriftung der Html-Seiten nicht stimmig wirkt, für mich hat sich eine Schriftgröße im Browser von 24px auf dem 4K-Bildschirm und von 12px auf dem 1K-Bildschirm bewährt.
 
-###Wir erstellen ein neues Album
+### Wir erstellen ein neues Album
 Wir beenden den Vorschaueditor mit dem Demo-Album mit 'Datei' -> 'Beenden' und starten den AlbumEditor neu, so dass wir wieder das Startfenster vor uns haben. 
 
 Hier wählen wir den Radiobutton: 'Ein neues Album erstellen'. Es öffnet sich ein Dateimanager und zeigt den Inhalt des Verzeichnisses 'Fotoalben'. In der rechten oberen Ecke, unterhalb des Buttons 'Okay', befindet sich ein Button, der ein neues Verzeichnis anlegt. Klicke diese Button an, wähle den Namen für das neue Album und bestätige mit 'Anlegen'. Der Dateimanager zeigt den Inhalt dieses neuen Verzeichnisses an: Es ist leer. Klicke nun auf den Button 'Fotoalben'. Das neu angelegte Album wird unter den existierenden Fotoalben mit aufgelistet. Es sollte aktuell ausgewählt sein. Ansonsten wähle es mit einem Klick der linken Maustaste. Klicke nun den Okay-Button oben rechts an. Der Dateimanager wird geschlossen und das Startfenster erscheint wieder. Oberhalb von 'Go!' müsste nun der Name des neuen Fotoalbums erscheinen.
@@ -79,7 +79,7 @@ Im Normalfall erwartet der AlbumEditor unter Windows 11 die Bilder im Laufwerk C
 
 und sichert die abgeänderte Datei. Nach dem Neustart des AlbumEditors erwartet er die Bilder auf dem angegebenen Netzlaufwerk.
 
-##Sonderfall: 4K-Bildschirm mit Windows 11
+## Sonderfall: 4K-Bildschirm mit Windows 11
 Der Vorschaueditor wird bei einer Skalierung von 100% winzig klein dargestellt, vor allem die Beschriftung ist kaum mehr lesbar. 
 
 **Abhilfe:** Das Album wird mit einer Bildschirmskalierung von 150% erstellt und erst zum Anschauen des fertigen Albums wird auf 100% umgestellt.

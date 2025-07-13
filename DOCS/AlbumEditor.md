@@ -22,11 +22,19 @@ oder
 
 herunterladen und entpacken.
 
-### Linux
-Das Programm muss irgendwo im Benutzerverzeichnis gespeichert sein. Darüber hinaus braucht es keine Installation. Das Programm erwartet die Bilder für die Alben im Bilderverzeichnis. Gestartet wird das Programm mit der Datei 'Album' ganz unten im Verzeichnis 'bin'. Anklicken genügt.
+Oder, noch einfacher, im Falle von Windows:
 
-### Windows
-Speichere das Programm auf C:\ irgendwo im Benutzerverzeichnis, also 'C:\Users\<username>\...'. Es erwartet die Bilder im Bilderverzeichnis. Der Sonderfall, dass die Bilder nicht auf C: sondern auf einem anderen Laufwerk gespeichert sind, wird unten extra behandelt. Gestartet wird das Programm mit der Datei 'Album.exe' ganz unten im Verzeichnis von 'bin'. Anklicken genügt.
+> AlbumEditorSetup.exe
+
+herunterladen und ausführen. Installiert und startet automatisch den AlbumEditor.
+
+Für die zip-Dateinen gilt:
+
+### …linux.zip
+Für Linux. Das Programm muss irgendwo im Benutzerverzeichnis gespeichert sein. Darüber hinaus braucht es keine Installation. Das Programm erwartet die Bilder für die Alben im Bilderverzeichnis. Gestartet wird das Programm mit der Datei 'Album' ganz unten im Verzeichnis 'bin'. Anklicken genügt.
+
+### …win.zip
+Für Windows 11. Speichere das Programm auf C:\ irgendwo im Benutzerverzeichnis, also 'C:\Users\<username>\...'. Es erwartet die Bilder im Bilderverzeichnis. Der Sonderfall, dass die Bilder nicht auf C: sondern auf einem anderen Laufwerk gespeichert sind, wird unten extra behandelt. Gestartet wird das Programm mit der Datei 'Album.exe' ganz unten im Verzeichnis von 'bin'. Anklicken genügt.
 
 ### Das Startfenster
 Nach dem Start öffnet sich zunächst das Startfenster. Es dient der Auswahl des gewünschen Fotoalbums und verschiedener Grundeinstellungen.

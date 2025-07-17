@@ -10,7 +10,7 @@ Ein Bildschirmausschnitt mit dem VorschauEditor:
 
 ![Bildschirmfoto vom 2025-07-09 09-54-05](https://github.com/user-attachments/assets/f223855e-ac3f-4c5d-b06e-27816480a9f4)
 
-Das Ergebnis als fertige html-Seite auf dem 4K-Bildschirm, leider nur klein:
+Das Ergebnis als fertige html-Seite auf dem 4K-Bildschirm, kann hier leider nur klein wiedergegeben werden:
 
 ![Screenshot 2025-07-09 at 09-49-54 2019_Sommer](https://github.com/user-attachments/assets/9c8fb22e-beda-4e7d-9c87-cc03c02b3003)
 

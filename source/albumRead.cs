@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using Startfenster;
 using ModuleHtml;
 using System;
-using System.Linq;
 
 /*
   Die Datei 'albumdaten.xml' wird hier eingelesen und ausgewertet.
@@ -35,7 +34,7 @@ namespace AlbumBasis
 		public static void VorschauMasse()
 		{
 			XmlDocument xmlDocVorschau = new();
-			string xmlpfad = StartFenster.AlbumRootPath + "/Baukasten/Werte/vorschaumasse.xml";
+			string xmlpfad = XMLDoc.AlbumRootPath + "/Baukasten/Werte/vorschaumasse.xml";
 			//Console.WriteLine("Der xml-Pfad: {0}", xmlpfad);
 			xmlDocVorschau.Load(xmlpfad);
 
@@ -57,7 +56,7 @@ namespace AlbumBasis
 		{
 			VorschauMasse();                          // holt wichtige Maße für das Fenster
 																								// File 'albumdaten.xml' mit den Daten des Fotoalbums:
-			Albumdatenpfad = Path.Join(StartFenster.FotoalbenPath, StartFenster.Albumname);
+			Albumdatenpfad = Path.Join(XMLDoc.FotoalbenPath, XMLDoc.Albumname);
 			Albumdatenpfad = Path.Join(Albumdatenpfad, "albumdaten.xml");
 			//Console.WriteLine("Albumdaten: {0}", Albumdaten);
 			var fi = new FileInfo(Albumdatenpfad);

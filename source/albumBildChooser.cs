@@ -19,7 +19,7 @@ namespace AlbumBasis
 	{
 		static readonly string DefaultFolder = Environment.GetFolderPath
 				(Environment.SpecialFolder.MyPictures);
-		static readonly string DefaultFiles = DefaultFolder + StartFenster.Sep + "*";
+		static readonly string DefaultFiles = DefaultFolder + XMLDoc.Sep + "*";
 		static string auswahlfile = string.Empty;
 		static Gtk.FileChooserWidget fcw;
 		static Gtk.Window win1;
@@ -55,7 +55,7 @@ namespace AlbumBasis
 			win1.ShowAll();
 		}
 
-		public static void OnUpdatePreview(object sender, EventArgs args)
+		static void OnUpdatePreview(object sender, EventArgs args)
 		{
 			Gtk.FileChooserWidget fcw = (Gtk.FileChooserWidget)sender;
 			string prevfile = fcw.PreviewFilename;

@@ -18,7 +18,7 @@ namespace Startfenster
 			//[38]: "Nichts zu tun; drücke 'Go'"
 			// orig: myLabel.Text = StartFenster.Localarray[38];
 			myLabel.Text = "Nichts zu tun; drücke 'Go'";
-			if (Albumname == "")
+			if (XMLDoc.Albumname == "")
 			{
 				tb2.Sensitive = false;
 				//[39]: "Kein Fotoalbum. Wähle 'Abbruch'!"
@@ -31,11 +31,11 @@ namespace Startfenster
 		// Ein bestehendes Album auswählen:
 		static void OnRadio2Clicked(object obj, EventArgs args)
 		{
-			Albumname = StartFensterChooser.RufeFileChooserAuf();
-			entry1.Text = Albumname;
+			XMLDoc.Albumname = StartFensterChooser.RufeFileChooserAuf();
+			entry1.Text = XMLDoc.Albumname;
 			//[40]: "Name korrekt? – 'Abbruch'/'Go'"
 			myLabel.Text = Localarray[40];
-			if (Albumname == "")
+			if (XMLDoc.Albumname == "")
 			{
 				tb2.Sensitive = false;
 				//[39]: "Kein Fotoalbum. Wähle 'Abbruch'!"
@@ -47,11 +47,11 @@ namespace Startfenster
 		// Ein neues Album erstellen:
 		static void OnRadio3Clicked(object obj, EventArgs args)
 		{
-			Albumname = StartFensterChooser.RufeFileChooserAuf();
-			entry1.Text = Albumname;
+			XMLDoc.Albumname = StartFensterChooser.RufeFileChooserAuf();
+			entry1.Text = XMLDoc.Albumname;
 			//[40]: "Name korrekt? –  'Abbruch'/'Go'"
 			myLabel.Text = Localarray[40];
-			if (Albumname == "")
+			if (XMLDoc.Albumname == "")
 			{
 				tb2.Sensitive = false;
 				//[39]: "Kein Fotoalbum. Wähle 'Abbruch'!"
@@ -62,29 +62,29 @@ namespace Startfenster
 		// Drehung auf 90 Grad:
 		static void OnRadio4Clicked(object obj, EventArgs args)
 		{
-			Drehwinkel = 90;
+			XMLDoc.Drehwinkel = 90;
 		}
 
 		// Drehung auf 270 Grad:
 		static void OnRadio5Clicked(object obj, EventArgs args)
 		{
-			Drehwinkel = 270;
+			XMLDoc.Drehwinkel = 270;
 		}
 
 		// Die Bilder ins Fotoalbum kopieren?
 		static void OnRadio6Clicked(object obj, EventArgs args)
 		{
 			// CopyImagesBool = radiobutton6.Active ? false : true;
-			CopyImages = "true";
-			CopyImagesBool = true;
-			Console.WriteLine("CopyImages ist jetzt: {0}", CopyImages);
+			XMLDoc.CopyImages = "true";
+			XMLDoc.CopyImagesBool = true;
+			Console.WriteLine("CopyImages ist jetzt: {0}", XMLDoc.CopyImages);
 		}
 
 		static void OnRadio7Clicked(object obj, EventArgs args)
 		{
-			CopyImagesBool = false;
-			CopyImages = "false";
-			Console.WriteLine("CopyImages ist jetzt: {0}", CopyImages);
+			XMLDoc.CopyImagesBool = false;
+			XMLDoc.CopyImages = "false";
+			Console.WriteLine("CopyImages ist jetzt: {0}", XMLDoc.CopyImages);
 		}
 
 		// Das Eingabefeld wurde geändert:
@@ -111,7 +111,7 @@ namespace Startfenster
 			if (radiobutton2.Active && name != "")
 			{
 				tb2.Sensitive = false;
-				AlbumnamePath = FotoRootDir + Sep + name;
+				AlbumnamePath = XMLDoc.FotoRootDir + XMLDoc.Sep + name;
 				DirectoryInfo dir = new(AlbumnamePath);
 				if (dir.Exists)
 				{
@@ -140,10 +140,10 @@ namespace Startfenster
 			// Das aktuelle Album öffnen:
 			if (radiobutton1.Active)
 			{
-				entry1.Text = Albumname;
+				entry1.Text = XMLDoc.Albumname;
 				entry1.IsEditable = false;
-				string fotoRootFullPath = FotoalbenPath;
-				AlbumnamePath = Path.Combine(fotoRootFullPath, Albumname);  // Pfad des Fotoalbums
+				string fotoRootFullPath = XMLDoc.FotoalbenPath;
+				AlbumnamePath = Path.Combine(fotoRootFullPath, XMLDoc.Albumname);  // Pfad des Fotoalbums
 
 				string sourceDirName = AlbumnamePath;
 				DirectoryInfo dir = new(sourceDirName);
@@ -155,20 +155,20 @@ namespace Startfenster
 					 "Source directory does not exist or could not be found: "
 					 + sourceDirName);
 					// Default als Ersatz:
-					Albumname = DefaultName;
-					AlbumnamePath = Path.Combine(FotoalbenPath, Albumname);
-					string path = Path.Combine(FotoalbenPath, "albumname.txt");
+					XMLDoc.Albumname = XMLDoc.DefaultName;
+					AlbumnamePath = Path.Combine(XMLDoc.FotoalbenPath, XMLDoc.Albumname);
+					string path = Path.Combine(XMLDoc.FotoalbenPath, "albumname.txt");
 					Console.WriteLine("Das ist mein Pfad: {0}", @path);
-					File.WriteAllText(@path, DefaultName, System.Text.Encoding.UTF8);
+					File.WriteAllText(@path, XMLDoc.DefaultName, System.Text.Encoding.UTF8);
 				}
 			}
 
 			// Ein bestehendes Album öffnen
 			if (radiobutton2.Active)
 			{
-				Albumname = entry1.Text;
-				string path = Path.Combine(FotoalbenPath, "albumname.txt");
-				File.WriteAllText(@path, Albumname, System.Text.Encoding.UTF8);
+				XMLDoc.Albumname = entry1.Text;
+				string path = Path.Combine(XMLDoc.FotoalbenPath, "albumname.txt");
+				File.WriteAllText(@path, XMLDoc.Albumname, System.Text.Encoding.UTF8);
 				PruefProgramm();
 			}
 
@@ -178,11 +178,11 @@ namespace Startfenster
 			// Das wird über das 'PruefProgramm' gesteuert.
 			if (radiobutton3.Active)
 			{
-				Albumname = entry1.Text;
+				XMLDoc.Albumname = entry1.Text;
 				PruefProgramm();
 			}
 
-			if (Albumname != "Ungültiger Albumname")
+			if (XMLDoc.Albumname != "Ungültiger Albumname")
 			{
 				/*
 					Startet des Hauptprogramm mit dem VorschauEditor als Fenster!
@@ -199,9 +199,9 @@ namespace Startfenster
 
 		private static void PruefProgramm()
 		{
-			string fotoRootFullPath = FotoalbenPath;
-			Console.WriteLine("FotoalbenPath: {0}", FotoalbenPath);
-			AlbumnamePath = Path.Combine(fotoRootFullPath, Albumname);
+			string fotoRootFullPath = XMLDoc.FotoalbenPath;
+			Console.WriteLine("FotoalbenPath: {0}", XMLDoc.FotoalbenPath);
+			AlbumnamePath = Path.Combine(fotoRootFullPath, XMLDoc.Albumname);
 			Console.WriteLine("Fotoalbum im Prüfprogramm: {0}", AlbumnamePath);
 			DirectoryInfo dir = new(AlbumnamePath);
 			DirectoryInfo[] dir1 = dir.GetDirectories();
@@ -218,12 +218,12 @@ namespace Startfenster
 					Console.WriteLine("in diesem Verzeichnis ist nichts drin");
 					// Schreibe den Albumnamen ins Verzeichnis
 					string myfile = Path.Combine(AlbumnamePath, "albumname.txt");
-					File.WriteAllText(myfile, Albumname, System.Text.Encoding.UTF8);
+					File.WriteAllText(myfile, XMLDoc.Albumname, System.Text.Encoding.UTF8);
 
 					// Copy from the current directory, include subdirectories.
 					DirectoryCopy(Rel + "Baukasten" +
-						Sep + Startpfad +
-						Sep + "Starterset",
+						XMLDoc.Sep + Startpfad +
+						XMLDoc.Sep + "Starterset",
 						AlbumnamePath, true);
 				}
 			}

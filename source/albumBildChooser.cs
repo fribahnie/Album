@@ -25,7 +25,7 @@ namespace AlbumBasis
 		static Gtk.Window win1;
 
 
-		static void OnRufeFileChooser(object obj, EventArgs args)
+		public static void OnRufeFileChooser(object obj, EventArgs args)
 		{
 			win1 = new Gtk.Window(StartFenster.Localarray[1]);
 			win1.SetDefaultSize(800, 450);

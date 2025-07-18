@@ -60,7 +60,7 @@ namespace AlbumBasis
 			ShowAll();
 		}
 
-		static void OnSeiteNeu(object sender, EventArgs args)
+		public static void OnSeiteNeu(object sender, EventArgs args)
 		{
 			int aktuell = AlbumRead.Seitenliste.IndexOf(seite); /* Index akt. Seite */
 			vbox.Remove(layout);                                 /* entfernt das alte Layout */

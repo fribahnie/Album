@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using Startfenster;
 using ModuleHtml;
 using System;
-using System.Linq;
 
 /*
   Die Datei 'albumdaten.xml' wird hier eingelesen und ausgewertet.

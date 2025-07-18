@@ -25,7 +25,7 @@ namespace AlbumBasis
 		static Gtk.Window win1;
 
 
-		public static void OnRufeFileChooser(object obj, EventArgs args)
+		static void OnRufeFileChooser(object obj, EventArgs args)
 		{
 			win1 = new Gtk.Window(StartFenster.Localarray[1]);
 			win1.SetDefaultSize(800, 450);
@@ -55,7 +55,7 @@ namespace AlbumBasis
 			win1.ShowAll();
 		}
 
-		public static void OnUpdatePreview(object sender, EventArgs args)
+		static void OnUpdatePreview(object sender, EventArgs args)
 		{
 			Gtk.FileChooserWidget fcw = (Gtk.FileChooserWidget)sender;
 			string prevfile = fcw.PreviewFilename;

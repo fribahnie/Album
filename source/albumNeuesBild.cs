@@ -209,18 +209,18 @@ namespace AlbumBasis
     public static Gtk.Image SkaliereBild(string jpg_file, string richtung)
     {
       string jpegNewFileName = CreateBilderpfad(jpg_file);
-      string pfadmini = StartFenster.FotoalbenPath + StartFenster.Sep +
-                  StartFenster.Albumname + StartFenster.Sep +
+      string pfadmini = XMLDoc.FotoalbenPath + XMLDoc.Sep +
+                  XMLDoc.Albumname + XMLDoc.Sep +
                   "Vorschaubilder";
-      string pfadgross = StartFenster.FotoalbenPath + StartFenster.Sep +
-          StartFenster.Albumname + StartFenster.Sep +
+      string pfadgross = XMLDoc.FotoalbenPath + XMLDoc.Sep +
+          XMLDoc.Albumname + XMLDoc.Sep +
           "Bilder";
       Console.WriteLine("'bildergross':  {0}", pfadgross);
-      string pfadbildmini = pfadmini + StartFenster.Sep + jpegNewFileName;
-      string pfadbildgross = pfadgross + StartFenster.Sep + jpegNewFileName;
+      string pfadbildmini = pfadmini + XMLDoc.Sep + jpegNewFileName;
+      string pfadbildgross = pfadgross + XMLDoc.Sep + jpegNewFileName;
       Gtk.Image image = new();
       Gdk.Pixbuf pixbuf;
-      if ((!File.Exists(pfadbildgross)) && StartFenster.CopyImagesBool)
+      if ((!File.Exists(pfadbildgross)) && XMLDoc.CopyImagesBool)
       {
         // Kopiere die Bilddatei ins Fotoalbum. Geschwindigkeitsvorteil beim Anschauen.
         // Console.WriteLine("Kopiere {0} nach {1}", jpg_file, filebild);
@@ -282,8 +282,8 @@ namespace AlbumBasis
       image.Pixbuf = pixbuf.ScaleSimple(vorschau_breite, vorschau_hoehe, Gdk.InterpType.Hyper);
       if (image.Pixbuf.Width >= image.Pixbuf.Height && richtung.CompareTo("H") == 0)
       {
-        Console.WriteLine("Der Drehwinkel beträgt {0} Grad.", StartFenster.Drehwinkel);
-        image.Pixbuf = image.Pixbuf.RotateSimple((PixbufRotation)StartFenster.Drehwinkel);
+        Console.WriteLine("Der Drehwinkel beträgt {0} Grad.", XMLDoc.Drehwinkel);
+        image.Pixbuf = image.Pixbuf.RotateSimple((PixbufRotation)XMLDoc.Drehwinkel);
       }
       //Console.WriteLine("Das image ist erstellt und wird zurückgegeben.");
       // Speichert das Vorschaubild im Vorzeichnis "Vorschaubilder" des Fotoalbums.
@@ -327,9 +327,9 @@ namespace AlbumBasis
     public static string CreateBilderpfad(string jpg_file)
     {
       // Anpassung an Windows: Ersetze gegebenenfalls "/" durch "\"
-      jpg_file = jpg_file.Replace("/", StartFenster.Sep);
+      jpg_file = jpg_file.Replace("/", XMLDoc.Sep);
       string vergleichstr = jpg_file[..11]; // Vergleiche die ersten 11 Zeichen des Bild-Dateipfads
-      string teststr = "." + StartFenster.Sep + "Baukasten";
+      string teststr = "." + XMLDoc.Sep + "Baukasten";
       Console.WriteLine("Vergleichsstring: {0}; Teststring: {1}", vergleichstr, teststr);
       // wenn ein anderes Laufwerk als C: verwendet wird; else: Bilder auf C:
       int schnittstart = RelativPaths.AlternativOrdnerBool ? 3 : RelativPaths.LaengeRelBilderOrdner;
@@ -349,7 +349,7 @@ namespace AlbumBasis
       else Console.WriteLine("Es handelt sich um ein Normalobild. Startindex {0}", schnittstart);
       // int laenge = jpg_file.Length - startindex;
       string jpegNewFileName = jpg_file[startindex..];
-      jpegNewFileName = jpegNewFileName.Replace(StartFenster.Sep, "qq");
+      jpegNewFileName = jpegNewFileName.Replace(XMLDoc.Sep, "qq");
       Console.WriteLine("Das Erg. von SchneideBilderpfad: {0}", jpegNewFileName);
       return jpegNewFileName;
     }

@@ -58,8 +58,8 @@ namespace AlbumBasis
       // Wenn keine Box aktiv ist:
       if (zaehler == 0)
         StartFenster.WinkelCheckboxList[senderindex].Toggle();
-      StartFenster.Drehwinkel = StartFenster.DrehwinkelArray[senderindex];
-      Console.WriteLine("Der Drehwinkel wurde auf {0} Grad gesetzte", StartFenster.Drehwinkel);
+      XMLDoc.Drehwinkel = StartFenster.DrehwinkelArray[senderindex];
+      Console.WriteLine("Der Drehwinkel wurde auf {0} Grad gesetzte", XMLDoc.Drehwinkel);
     }
 
     public static void DisplayMenuePunkt(string displaywidth, Menu untermenu2, List<Gtk.CheckMenuItem> displaycheckboxList)
@@ -70,8 +70,6 @@ namespace AlbumBasis
       StartFenster.DisplayCheckboxList = displaycheckboxList;
       untermenu2.Append(checkitem);
     }
-
-
 
     public static void OnDisplayGroesse(object sender, EventArgs args)
     {

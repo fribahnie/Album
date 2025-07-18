@@ -61,7 +61,7 @@ namespace ModuleHtml
 
 			// Der Suchstring für den Titel:
 			string suchtitel = "qqtitel";
-			htmltext = htmltext.Replace(suchtitel, StartFenster.Albumname);
+			htmltext = htmltext.Replace(suchtitel, XMLDoc.Albumname);
 
 			// Der Suchstring für die Seitenangabe:
 			string suchseite = "qqseite";

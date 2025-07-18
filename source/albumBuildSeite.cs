@@ -39,9 +39,9 @@ namespace AlbumBasis
 								 string titel,
 								 string inhalt)
 		{
-			Hintergrundimagepfad = StartFenster.AlbumRootPath +
-				"Baukasten" + StartFenster.Sep +
-				"RahmenBilder" + StartFenster.Sep +
+			Hintergrundimagepfad = XMLDoc.AlbumRootPath +
+				"Baukasten" + XMLDoc.Sep +
+				"RahmenBilder" + XMLDoc.Sep +
 				"Hintergrund.png";                    // Pfad für den farbigen Hintergrund mit dem Rahmen
 			Console.WriteLine("Der Hintergrundpfad: {0}", Hintergrundimagepfad);
 			XmlNodeList xnDateiList;                 // NodeList der Bilder

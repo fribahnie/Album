@@ -19,7 +19,7 @@ namespace AlbumBasis
 	{
 		static readonly string DefaultFolder = Environment.GetFolderPath
 				(Environment.SpecialFolder.MyPictures);
-		static readonly string DefaultFiles = DefaultFolder + StartFenster.Sep + "*";
+		static readonly string DefaultFiles = DefaultFolder + XMLDoc.Sep + "*";
 		static string auswahlfile = string.Empty;
 		static Gtk.FileChooserWidget fcw;
 		static Gtk.Window win1;

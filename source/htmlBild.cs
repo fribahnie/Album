@@ -57,7 +57,7 @@ namespace ModuleHtml
 
 				pfad = pfad.Replace("c:", "C:");
 
-				string sep = StartFenster.Sep;        // "/" od. "\" je nach Plattform
+				string sep = XMLDoc.Sep;        // "/" od. "\" je nach Plattform
 
 				pfad = Bilderpfad.PfadArbeiten(pfad); /* Berücksichtige die unterschiedlichen Plattformen */
 
@@ -65,8 +65,8 @@ namespace ModuleHtml
 				// Link zum EB:
 				string einzelbild = refLink + HtmlBuild.ES_Sichern + zahlenstr + ".html";
 				// Speicherpfad für EB:
-				string einzelpfad = StartFenster.FotoalbenPath + sep +
-										 StartFenster.Albumname +
+				string einzelpfad = XMLDoc.FotoalbenPath + sep +
+										 XMLDoc.Albumname +
 										 HtmlBuild.ES_Sichern +
 										 zahlenstr + ".html";
 

@@ -107,7 +107,7 @@ namespace AlbumBasis
 
 			/* Sichern in 'pfade.xml': */
 			XmlDocument xmlpfade = new();
-			string Sep = StartFenster.Sep;
+			string Sep = XMLDoc.Sep;
 			string filepath = "." + Sep + "Baukasten" + Sep + "Werte" + Sep + "pfade.xml";
 			xmlpfade.Load(filepath);
 			XmlNode lang_default = xmlpfade.SelectSingleNode("/pfade/lang_default");

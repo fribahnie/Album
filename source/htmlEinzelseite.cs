@@ -54,7 +54,7 @@ namespace ModuleHtml
 	    */
 			string seitenangabe = "Seite " + bildzaehler + "/" + Bildermax;
 			string etext = HtmlEinzVorl;
-			etext = etext.Replace("qqtitel", StartFenster.Albumname);
+			etext = etext.Replace("qqtitel", XMLDoc.Albumname);
 			etext = etext.Replace("qqgroesse", HtmlBuild.Groesse); // Größenauswahl
 			etext = etext.Replace("qqbild", HtmlBild.Pfad);        // Bilddateipfad
 			etext = etext.Replace("qq_bbreite", Conthoehe);        // Containerhöhe

@@ -5,6 +5,9 @@ using System.Collections;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using Gtk;
+using ModulePlattform;
+using ModuleSprachen;
+using Startfenster;
 
 namespace Startfenster
 {
@@ -54,35 +57,20 @@ namespace Startfenster
 						'Application.Init()'
 		 */
 		public static string[] Bereiche { set; get; }// { "mittel", "gross", "vierk" };
-		public static string AlbumRootPath { set; get; }// Pfad zu dem Programm
-		public static string FotoalbenPath { set; get; }// Pfad zu den Fotoalben
 		public static string AlbumnamePath { set; get; }// Pfad zu den Dateien des Fotoalbums
-		public static string FotoRootDir { set; get; }// Fotoalben-Verzeichnis
-		public static string Albumname { set; get; }// Name des Albums
-		public static string DefaultName { set; get; }// Defaultname des Albums
-		public static string Bildformat { set; get; }// z.B. '16x12' für 'AlbumMenu'
-		public static string HomeBilder { set; get; }// z.B.:  'C:\Users\fbahr\'
 		public static int DisplayDefault { set; get; }// Größe für die html-Ausgabe
 		public static int Plattform { set; get; }// 0 = win, 1 = linux, 2 = OSX
-		public static string Sep { set; get; }// Seperator in Dateipfaden
 		public static string Rel { set; get; }// "./" in relativen Dateipfaden
-		public static string LangDefault { get; set; }// Sprache der Textbausteine
-		public static string CopyImages { set; get; }// 'false' oder 'true' in pfade.xml
-		public static bool CopyImagesBool { set; get; } // sollen die Bilder ins Album kopiert werden?
-		public static string Aktiv { set; get; }// 'false' oder 'true' in pfade.xml
 		public static string Startpfad { set; get; }// Pfadabschnitt zum Starterset
 		public static string[] Localarray { set; get; }
-		public static int Drehwinkel { set; get; }
 		public static int[] DrehwinkelArray { set; get; }
 		public static int StartIndex { set; get; }
 		public static int Seitennr { set; get; }
-
 		public static List<Gtk.CheckMenuItem> FotoformatCheckboxList { get; set; }
 		public static List<Gtk.CheckMenuItem> WinkelCheckboxList { get; set; }
 		public static List<Gtk.CheckMenuItem> DisplayCheckboxList { get; set; }
 		public static List<Gtk.CheckMenuItem> CopyCheckboxList { get; set; }
 		public static List<Gtk.MenuItem> FormateList { get; set; }
-
 
 		public static Gtk.Window myWin;        // public: wird später von 'AlbumRead()' gelöscht 
 		static Gtk.Entry entry1;
@@ -107,7 +95,8 @@ namespace Startfenster
 	       – Sep
 	       – Bereiche
 	    */
-			BestimmePlattform();
+			DiePlattform.BestimmePlattform();
+			Bereiche = ["mittel", "gross", "vierk"];
 			RelativPaths.RelativePfade();
 			/*
 	      Nun wird die Datei 'DefaultWerte.xml' eingelesen. Sie liefert
@@ -126,9 +115,9 @@ namespace Startfenster
 				Bilder auf einem gemeinsamen Server gespeichert sind. 
 				 Der Wert von 'fotoalben' wird zur Zeit nicht ausgewertet.
 	    */
-			LiesDefaultWerteEin();
+			XMLDoc.MainXMLDoc();
 			Console.WriteLine("Ich bin zurück. Pfade sind eingelesen.");
-			SpracheLaden(LangDefault);
+			Sprachdateien.SpracheLaden(XMLDoc.LangDefault);
 			int[] drehwinkelarray = [270, 90];
 			DrehwinkelArray = (int[])drehwinkelarray.Clone();
 
@@ -159,15 +148,15 @@ namespace Startfenster
 			radiobutton3 = new RadioButton(radiobutton1, Localarray[7]);
 			radiobutton4 = new RadioButton(null, "Drehwinkel  90 (Foto)");
 			radiobutton5 = new RadioButton(radiobutton4, "Drehwinkel 270 (Handy)");
-			if (Drehwinkel == 90) radiobutton4.Active = true;
+			if (XMLDoc.Drehwinkel == 90) radiobutton4.Active = true;
 			else radiobutton5.Active = true;
 			// radiobutton5.Active = true;
 			radiobutton6 = new RadioButton(null, "ja");
 			radiobutton7 = new RadioButton(radiobutton6, "nein (Default)");
-			string wertstr = CopyImagesBool ? "true" : "false";
+			string wertstr = XMLDoc.CopyImagesBool ? "true" : "false";
 			Console.WriteLine("CopyImagesBool hat den Wert {0}", wertstr);
-			radiobutton6.Active = !CopyImagesBool;
-			radiobutton7.Active = !CopyImagesBool;
+			radiobutton6.Active = !XMLDoc.CopyImagesBool;
+			radiobutton7.Active = !XMLDoc.CopyImagesBool;
 
 			hbox6.PackStart(radiobutton4, false, false, 0);
 			hbox6.PackStart(radiobutton5, false, false, 0);
@@ -209,7 +198,7 @@ namespace Startfenster
 			tb2.Clicked += new EventHandler(OnTb2Clicked);
 
 			// Ordner mit dem konkreten einzelnen Fotoalbum:
-			AlbumnamePath = Path.Combine(FotoalbenPath, Albumname);
+			AlbumnamePath = Path.Combine(XMLDoc.FotoalbenPath, XMLDoc.Albumname);
 			Console.WriteLine("Fotoalbum: {0}", AlbumnamePath);
 
 			myLabel = new Label
@@ -219,7 +208,7 @@ namespace Startfenster
 			};
 			Label fillLabel = new();
 
-			entry1.Text = Albumname;
+			entry1.Text = XMLDoc.Albumname;
 
 			hbox1.PackStart(vbox1, false, false, 10);
 			hbox2.PackStart(myLabel, true, true, 10);
@@ -239,110 +228,9 @@ namespace Startfenster
 
 			Gtk.Application.Run();
 		}
-
-		static void BestimmePlattform()
-		{
-			Console.WriteLine("Wir beginnen damit, die Plattform zu bestimmen.");
-			// ermittelt die verwendete Plattform:
-			int plattform = -1;
-			// hack because of this: https://github.com/dotnet/corefx/issues/10361
-			if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-			{
-				plattform = 0;
-			}
-			else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
-			{
-				plattform = 1;
-				Console.WriteLine("Wir schaffen mit Linux.");
-			}
-			else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-			{
-				// orig = "file://";
-				plattform = 2;
-			}
-			Plattform = plattform;                  // Wertzuweisung 0, 1 od. 2
-			Console.WriteLine("Der Plattform wurde der Wert {0} zugewiesen", plattform);
-			//AlbumBasics.RelativePfade();            //–>'AlbumRootPath', 'Ersatzstr'
-			//Rel = "." + Sep;                        // und 'Sep'
-			string[] bereiche = { "mittel", "gross", "vierk" };
-			Bereiche = bereiche;
-			Console.WriteLine("Wir verlassen die Bestimmung der Plattform.");
-		}
-
-		static void LiesDefaultWerteEin()
-		{
-			XmlDocument xmldefault = new();
-			string zwischenstr = "Baukasten/Werte/DefaultWerte.xml";
-			zwischenstr = zwischenstr.Replace("/", Sep);
-			string wertepfad = AlbumRootPath + zwischenstr;
-			Console.WriteLine("der Wertepfad: {0}", wertepfad);
-			xmldefault.Load(wertepfad);
-			XmlNode copyimages = xmldefault.SelectSingleNode("DefaultWerte/copyimages");
-			XmlNode aktiv = xmldefault.SelectSingleNode("DefaultWerte/aktiv");
-			XmlNode bildformat = xmldefault.SelectSingleNode("DefaultWerte/bildformat");
-			XmlNode drehwinkel = xmldefault.SelectSingleNode("DefaultWerte/drehwinkel");
-			XmlNode lang_default = xmldefault.SelectSingleNode("DefaultWerte/lang_default");
-			XmlNode alternatdirectory = xmldefault.SelectSingleNode("DefaultWerte/alternatdirectory");
-			CopyImages = copyimages.InnerText; // sollen die Bilder ins Album kopiert werden?
-			CopyImagesBool = CopyImages == "true"; // je nach Einstellung: true oder false
-
-			Aktiv = aktiv.InnerText;         // absolute od. relat. Pfade
-			Bildformat = bildformat.InnerText;    // '16x12' od. '16x09'
-			Drehwinkel = int.Parse(drehwinkel.InnerText); // 270 oder 90 Grad
-			LangDefault = lang_default.InnerText;  // Vorgabe Sprache
-			RelativPaths.AltDirectory = alternatdirectory.InnerText;
-			if (RelativPaths.AltDirectory != string.Empty && Plattform == 0)
-			{
-				HomeBilder = RelativPaths.AltDirectory;
-				RelativPaths.AlternativOrdnerBool = true;
-			}
-			else
-			{
-				RelativPaths.AlternativOrdnerBool = false;
-			}
-			FotoRootDir = "Fotoalben";                // Verzeichnis der Fotoalben
-			Console.WriteLine("AlbumRootPath: {0}; FotoRootDir: {1};", AlbumRootPath, FotoRootDir);
-			FotoalbenPath = Path.Join(AlbumRootPath, Sep, FotoRootDir);
-			FotoalbenPath = Path.GetFullPath(FotoalbenPath);// zu den Fotoalben
-			Console.WriteLine("Das Fotodir: {0}", FotoalbenPath);
-			DefaultName = @"Meine_Hunde";
-			// ???? FotoalbenPath = Path.GetFullPath(FotoRootDir);
-			string fileName = Path.Combine(FotoalbenPath, "albumname.txt");
-			Console.WriteLine("Lies das File: {0}", fileName);
-			try
-			{
-				Console.WriteLine("Der Albumname: {0}", fileName);
-				Albumname = File.ReadAllText(fileName);   // der gespeicherte Albumname
-				Console.WriteLine("Der gespeicherte Albumname: {0}", Albumname);
-			}
-			catch // (Exception e)
-			{
-				Albumname = DefaultName;                    // der Default Albumname
-			}
-		}
-
-		public static void SpracheLaden(string Sprachdatei)
-		{
-			Console.WriteLine("Der Startpfad für die Sprachtabellen wird erstellt.");
-			// Erstelle 'Startpfad':
-			Hashtable sprachtabelle = new()
-			{
-				{ "local_de.txt", "Start_de" },
-				{ "local_en.txt", "Start_en" }
-			};
-			Startpfad = (string)sprachtabelle[Sprachdatei]; // Typumwandlung
-			Console.WriteLine("Der Startpfad für die Sprachdatei: {0}", Startpfad);
-
-			// Erstelle 'StartFenster.Localarray':
-			string filepfad = AlbumRootPath + "Baukasten" + Sep + "local" + Sep + Sprachdatei;
-			Console.WriteLine("In SpracheLaden ist der filepfad {0}", filepfad);
-			string ergstr = System.IO.File.ReadAllText(filepfad);
-			ergstr = ergstr.Replace("\n", string.Empty);
-			//Console.WriteLine("SpracheLaden: Der String: {0}", ergstr);
-			string[] localarr = ergstr.Split(',');
-			//Console.WriteLine("Die Länge des localarray: {0}", localarr.Length);
-			//Console.WriteLine(localarr[^1]);
-			Localarray = (string[])localarr.Clone();
-		}
 	}
 }
+
+
+
+

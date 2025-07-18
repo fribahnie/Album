@@ -31,16 +31,16 @@ namespace ModuleHtml
 			// Für den Aufruf als 'url' braucht es diese Erweiterung:
 			if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
 			{
-				fotoalbenpfad = "file:///" + StartFenster.FotoalbenPath;
+				fotoalbenpfad = "file:///" + XMLDoc.FotoalbenPath;
 				fotoalbenpfad = fotoalbenpfad.Replace("&", "^&");
 			}
 			else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
 			{
-				fotoalbenpfad = "file://" + StartFenster.FotoalbenPath;
+				fotoalbenpfad = "file://" + XMLDoc.FotoalbenPath;
 			}
 			else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
 			{
-				fotoalbenpfad = "file://" + StartFenster.FotoalbenPath;
+				fotoalbenpfad = "file://" + XMLDoc.FotoalbenPath;
 			}
 			Console.WriteLine("fotoalbenpfad: {0}", fotoalbenpfad);
 
@@ -52,12 +52,12 @@ namespace ModuleHtml
 			string htmlseite = "seite" + endung + ".html";
 			string albumseitenDir = "Albumseiten";
 			string groesseDir = albumgroesse;
-			string url = Path.Combine(fotoalbenpfad, StartFenster.Albumname);
+			string url = Path.Combine(fotoalbenpfad, XMLDoc.Albumname);
 			url = Path.Combine(url, albumseitenDir);
 			url = Path.Combine(url, groesseDir);
 			url = Path.Combine(url, htmlseite);
 			url = url.Replace(" ", "%20");
-			url = url.Replace(StartFenster.Sep, "/");
+			url = url.Replace(XMLDoc.Sep, "/");
 
 			Console.WriteLine("AlbumBrowser url = {0}", url);
 

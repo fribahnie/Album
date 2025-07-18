@@ -107,7 +107,7 @@ namespace AlbumBasis
 
 			/* Sichern in 'pfade.xml': */
 			XmlDocument xmlpfade = new();
-			string Sep = StartFenster.Sep;
+			string Sep = XMLDoc.Sep;
 			string filepath = "." + Sep + "Baukasten" + Sep + "Werte" + Sep + "pfade.xml";
 			xmlpfade.Load(filepath);
 			XmlNode lang_default = xmlpfade.SelectSingleNode("/pfade/lang_default");
@@ -124,7 +124,7 @@ namespace AlbumBasis
 		}
 
 		/* Wenn der Eintrag für das Inhaltsverzeichnis geändert wird: */
-		public static void OnEintragChanged(object obj, EventArgs args)
+		static void OnEintragChanged(object obj, EventArgs args)
 		{
 			Gtk.Entry eintrag = (Gtk.Entry)obj;
 			seite.EintragInhalt = eintrag.GetChars(0, -1);    /* speichert den Eintrag im Inhaltsverzeichnis */

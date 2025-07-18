@@ -85,7 +85,7 @@ namespace AlbumBasis
 			string breitehoehe = AlbumApp.Bildformate[myindex];
 			string formenname = AlbumFormennamen.Formenname(senderindex); /* werte dictionary 'formennamen' aus */
 			seite.Breitehoehe = breitehoehe;
-			StartFenster.Bildformat = breitehoehe; /* wird als Defaultwert gesichert */
+			XMLDoc.Bildformat = breitehoehe; /* wird als Defaultwert gesichert */
 
 			List<AlbumPunkt> bilderEckpunkte = [];
 			List<AlbumPunkt> tviewEckpunkte = [];

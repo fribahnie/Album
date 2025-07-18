@@ -27,16 +27,16 @@ namespace Startfenster
 			};
 
 			string mydir = string.Empty;
-			fcd.SetFilename(StartFenster.FotoalbenPath + "/*");
+			fcd.SetFilename(XMLDoc.FotoalbenPath + "/*");
 			if (fcd.Run() == (int)Gtk.ResponseType.Ok)
 			{
 				string mystring = fcd.CurrentFolder;
 				// Console.WriteLine( "Der Ordnername: {0}", mystring );
 				mystring = mystring.Replace("\\", "/");
-				StartFenster.FotoalbenPath = StartFenster.FotoalbenPath.Replace("\\", "/");
+				XMLDoc.FotoalbenPath = XMLDoc.FotoalbenPath.Replace("\\", "/");
 				// Console.WriteLine( mystring );
 				// Console.WriteLine( "FotoalbenPath: {0}", StartFenster.FotoalbenPath );
-				if (mystring == StartFenster.FotoalbenPath)
+				if (mystring == XMLDoc.FotoalbenPath)
 				{
 					mydir = Path.GetFileName(fcd.Filename);
 					// Console.WriteLine( "File: {0}", mydir );

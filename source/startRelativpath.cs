@@ -88,21 +88,21 @@ namespace Startfenster
 			bildpfadlaenge -= startIndex;
 			string bilderOrdnerrechts = s1.Substring(startIndex, bildpfadlaenge); // Die rechte Seite des Bilderordners
 			string homeBilder = s1[..startIndex];
-			StartFenster.HomeBilder = homeBilder; // z.B.:  'C:\Users\fbahr\'
+			XMLDoc.HomeBilder = homeBilder; // z.B.:  'C:\Users\fbahr\'
 			StartFenster.StartIndex = startIndex;
 			Console.WriteLine("Die Wurzel des Pfads: {0} der Rest: {1}", homeBilder, bilderOrdnerrechts);
 			Console.WriteLine("Stimmt der rootpath? {0}", rootpath);
-			StartFenster.Sep = sep;
+			XMLDoc.Sep = sep;
 			Console.WriteLine("AlternativOrdner steht auf: {0}", AlternativOrdnerBool);
-			StartFenster.AlbumRootPath = rootpath;       // für HtmlBild
-																									 // '..'   - rel. Pfad ein Verzeichnis nach oben; nötig: 4x
-																									 // 'ersatz' - rel. Pfad von den html-Seiten zu den Bilderdateien;
+			XMLDoc.AlbumRootPath = rootpath;       // für HtmlBild
+																						 // '..'   - rel. Pfad ein Verzeichnis nach oben; nötig: 4x
+																						 // 'ersatz' - rel. Pfad von den html-Seiten zu den Bilderdateien;
 			RelPfad = ersatz;
 			//ersatz = "." + sep + ".." + sep + ".." + sep + ".." + sep + ".." + sep;
 			//StartFenster.Ersatzstr = ersatz; // für HtmlBild
 			Console.WriteLine("RelPfad:    {0}", ersatz);
 			Console.WriteLine("Wechsel:    {0}", wechsel);
-			Console.WriteLine("Wurzelpfad: {0} Sep: {1}", s2, StartFenster.Sep);
+			Console.WriteLine("Wurzelpfad: {0} Sep: {1}", s2, XMLDoc.Sep);
 			Console.WriteLine("Durchmarsch beendet.");
 		}
 	}

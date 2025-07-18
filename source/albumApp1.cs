@@ -81,8 +81,8 @@ namespace AlbumBasis
 			int[] dieDisplaygroessen = { 0, 1, 2 };
 			//Console.WriteLine("albumApp1: DieDrehwinkel wurde aktualisiert");
 			//Console.WriteLine("albumApp1: Bildformate wurde aktualisiert.");
-			int formatindex = Array.IndexOf(bildformate, StartFenster.Bildformat);
-			int winkelindex = Array.IndexOf(diedrehwinkel, StartFenster.Drehwinkel);
+			int formatindex = Array.IndexOf(bildformate, XMLDoc.Bildformat);
+			int winkelindex = Array.IndexOf(diedrehwinkel, XMLDoc.Drehwinkel);
 			int displayindex = Array.IndexOf(dieDisplaygroessen, StartFenster.DisplayDefault);
 			eintrag.WidthChars = 38; // Bestimmt die Breite des TextEntry;
 															 //Console.WriteLine("Der Formatindex lautet: {0}", formatindex);

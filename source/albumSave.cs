@@ -97,7 +97,7 @@ namespace AlbumBasis
 			// Sichert 'Default' in 'vorschaumasse.xml' und
 			// 'Bildformat' in 'pfade.xml'; beide im Verzeichnis
 			// './Baukasten/Werte/':
-			string Sep = StartFenster.Sep;
+			string Sep = XMLDoc.Sep;
 			string filepathrumpf = "." + Sep + "Baukasten" + Sep + "Werte" + Sep;
 			string filepath = filepathrumpf + "vorschaumasse.xml";
 			XmlNode node = AlbumApp.XmlDocVorschau.SelectSingleNode("/vorschau/groesse");
@@ -112,10 +112,10 @@ namespace AlbumBasis
 			XmlNode formatnode = xmlDefaultWerte.SelectSingleNode("/DefaultWerte/bildformat");
 			XmlNode langnode = xmlDefaultWerte.SelectSingleNode("/DefaultWerte/lang_default");
 			XmlNode drehwinkelnode = xmlDefaultWerte.SelectSingleNode("/DefaultWerte/drehwinkel");
-			copyimages.InnerText = StartFenster.CopyImages;
-			formatnode.InnerText = StartFenster.Bildformat;
-			langnode.InnerText = StartFenster.LangDefault;
-			drehwinkelnode.InnerText = StartFenster.Drehwinkel.ToString();
+			copyimages.InnerText = XMLDoc.CopyImages;
+			formatnode.InnerText = XMLDoc.Bildformat;
+			langnode.InnerText = XMLDoc.LangDefault;
+			drehwinkelnode.InnerText = XMLDoc.Drehwinkel.ToString();
 			xmlDefaultWerte.Save(filepath);
 
 			Console.WriteLine("Sichern erfolgreich abgeschlossen");

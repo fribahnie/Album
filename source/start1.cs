@@ -1,13 +1,9 @@
 using System;
 using System.IO;
-using System.Xml;
-using System.Collections;
-using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using Gtk;
 using ModulePlattform;
 using ModuleSprachen;
-using Startfenster;
 
 namespace Startfenster
 {

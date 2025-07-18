@@ -60,7 +60,7 @@ namespace AlbumBasis
 			ShowAll();
 		}
 
-		public static void OnSeiteNeu(object sender, EventArgs args)
+		static void OnSeiteNeu(object sender, EventArgs args)
 		{
 			int aktuell = AlbumRead.Seitenliste.IndexOf(seite); /* Index akt. Seite */
 			vbox.Remove(layout);                                 /* entfernt das alte Layout */
@@ -124,7 +124,7 @@ namespace AlbumBasis
 		}
 
 		/* Wenn der Eintrag für das Inhaltsverzeichnis geändert wird: */
-		public static void OnEintragChanged(object obj, EventArgs args)
+		static void OnEintragChanged(object obj, EventArgs args)
 		{
 			Gtk.Entry eintrag = (Gtk.Entry)obj;
 			seite.EintragInhalt = eintrag.GetChars(0, -1);    /* speichert den Eintrag im Inhaltsverzeichnis */

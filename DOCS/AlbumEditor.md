@@ -14,11 +14,11 @@ und
 
 Je nach Plattform aus dem Release
 
-> Album_2025-07-08_linux.zip 
+> Album_2025-07-19_linux_x64.zip 
 
 oder
 
-> Album_2025-07-08_win.zip
+> Album_2025-07-19_win_x64.zip
 
 herunterladen und entpacken.
 

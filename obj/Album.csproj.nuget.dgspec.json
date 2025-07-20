@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/frieder/csharp/AlbumEditor/Album/Album.csproj": {}
+    "/home/frieder/csharp/AlbumEdit/Album/Album.csproj": {}
   },
   "projects": {
-    "/home/frieder/csharp/AlbumEditor/Album/Album.csproj": {
+    "/home/frieder/csharp/AlbumEdit/Album/Album.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/frieder/csharp/AlbumEditor/Album/Album.csproj",
+        "projectUniqueName": "/home/frieder/csharp/AlbumEdit/Album/Album.csproj",
         "projectName": "Album",
-        "projectPath": "/home/frieder/csharp/AlbumEditor/Album/Album.csproj",
+        "projectPath": "/home/frieder/csharp/AlbumEdit/Album/Album.csproj",
         "packagesPath": "/home/frieder/.nuget/packages/",
-        "outputPath": "/home/frieder/csharp/AlbumEditor/Album/obj/",
+        "outputPath": "/home/frieder/csharp/AlbumEdit/Album/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/frieder/.nuget/NuGet/NuGet.Config"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

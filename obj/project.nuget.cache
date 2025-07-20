@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vNr9QzDUiiI=",
+  "dgSpecHash": "vA6nbN8o1m8=",
   "success": true,
-  "projectFilePath": "/home/frieder/csharp/AlbumEditor/Album/Album.csproj",
+  "projectFilePath": "/home/frieder/csharp/AlbumEdit/Album/Album.csproj",
   "expectedPackageFiles": [
     "/home/frieder/.nuget/packages/atksharp/3.24.24.95/atksharp.3.24.24.95.nupkg.sha512",
     "/home/frieder/.nuget/packages/cairosharp/3.24.24.95/cairosharp.3.24.24.95.nupkg.sha512",

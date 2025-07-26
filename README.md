@@ -6,6 +6,10 @@ Du kannst mit dem Programm bequem digitale Fotoalben erstellen, die analogen Fot
 
 AlbumEditor ist mit csharp und gtk3 erstellt und funktioniert plattformübergreifend. Das Programm wird auf Debian und auf Windows 11 getestet.
 
+Das Programm ist veröffentlicht unter der GNU GENERAL PUBLIC LICENSE in der Version 3 vom 29. Juni 2007.
+Den vollständigen englischen Text der Lizenz findest Du hier: [Lizenz](./source/License.md) 
+
+
 Ein Bildschirmausschnitt mit dem VorschauEditor:
 
 ![Bildschirmfoto vom 2025-07-09 09-54-05](https://github.com/user-attachments/assets/f223855e-ac3f-4c5d-b06e-27816480a9f4)

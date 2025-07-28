@@ -27,6 +27,6 @@ Das Ergebnis als fertige html-Seite auf dem 4K-Bildschirm, kann hier leider nur 
 
 ![Screenshot 2025-07-09 at 09-49-54 2019_Sommer](https://github.com/user-attachments/assets/9c8fb22e-beda-4e7d-9c87-cc03c02b3003)
 
-Eine ausführliche Anleitung zum AlbumEditor findest Du in DOCS [Anleitung](./DOCS/AlbumEditor.md) oder auch im Wiki.
+Eine ausführliche Anleitung zum AlbumEditor findest Du in DOCS [Anleitung](./DOCS/AlbumEditor.md) oder auch im [Wiki](../../wiki).
 
 

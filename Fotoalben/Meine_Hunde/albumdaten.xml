@@ -10,8 +10,8 @@
         <bilddatei>./Baukasten/Beispielbilder/Hunde/hund001.jpg</bilddatei>
     </bilder>
     <kommentarliste>
-        <kommentar>Mein erstes Textfeld</kommentar>
-        <kommentar>Mein zweites Textfeld</kommentar>
+        <kommentar>Erste Infos zu dem Bild</kommentar>
+        <kommentar>Auch mehr Text ist möglich.</kommentar>
     </kommentarliste>
   </seite>
   <seite>

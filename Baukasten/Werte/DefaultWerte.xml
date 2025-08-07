@@ -23,5 +23,6 @@
   <sprache>local_en.txt</sprache>
   <sprache>local_de.txt</sprache>
   <lang_default>local_de.txt</lang_default>
-  <alternatdirectory></alternatdirectory>
+  <alternatdirectory>
+  </alternatdirectory>
 </DefaultWerte>

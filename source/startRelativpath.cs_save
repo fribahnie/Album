@@ -72,10 +72,8 @@ namespace Startfenster
 			// der relative Pfad 'wechsel' ermöglicht den Wechsel in den Ordner 'Album'
 			string s1;
 			// Der Normalfall:
-			s1 = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-			string value = StartFenster.Plattform == 1 ? "Pictures" : "MyPictures";
-			s1 += sep + value;
-			Console.WriteLine("Als Pfad erkannt: {0}", s1);
+			s1 = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+			Console.WriteLine("Als Bilderpfad erkannt: {0}", s1);
 			// s2: Hier erst mal die Rohfassung; Der Endwert ist plattformabhängig:
 			s2 += sep;
 			// if (StartFenster.Plattform == 0) { s2 = s2 + sep; } else { s2 = sep + s2 + sep; }

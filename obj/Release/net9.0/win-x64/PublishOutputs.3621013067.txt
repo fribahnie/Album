@@ -183,7 +183,7 @@
 /home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/hostfxr.dll
 /home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/hostpolicy.dll
 /home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/mscordaccore.dll
-/home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/mscordaccore_amd64_amd64_9.0.725.31616.dll
+/home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/mscordaccore_amd64_amd64_9.0.825.36511.dll
 /home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/mscordbi.dll
 /home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/mscorrc.dll
 /home/frieder/csharp/AlbumEdit/Album/bin/Release/net9.0/win-x64/publish/msquic.dll

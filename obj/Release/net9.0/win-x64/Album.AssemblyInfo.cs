@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Album")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a31558563e3a32e9a1e99e6c7df422add044a273")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abadceec8b0397b8792fcb9e7411774af34463b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Album")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Album")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

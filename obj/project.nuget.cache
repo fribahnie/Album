@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "IQJhFtTR8yA=",
-=======
-  "dgSpecHash": "38dYdsg19mA=",
->>>>>>> 406d8ea13acb01794e72e8e479b7034713e66a5c
   "success": true,
   "projectFilePath": "/home/frieder/csharp/AlbumEdit/Album/Album.csproj",
   "expectedPackageFiles": [
@@ -15,10 +11,17 @@
     "/home/frieder/.nuget/packages/giosharp/3.24.24.95/giosharp.3.24.24.95.nupkg.sha512",
     "/home/frieder/.nuget/packages/glibsharp/3.24.24.95/glibsharp.3.24.24.95.nupkg.sha512",
     "/home/frieder/.nuget/packages/gtksharp/3.24.24.95/gtksharp.3.24.24.95.nupkg.sha512",
-    "/home/frieder/.nuget/packages/pangosharp/3.24.24.95/pangosharp.3.24.24.95.nupkg.sha512",
-    "/home/frieder/.nuget/packages/microsoft.netcore.app.runtime.win-x64/9.0.8/microsoft.netcore.app.runtime.win-x64.9.0.8.nupkg.sha512",
-    "/home/frieder/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/9.0.8/microsoft.aspnetcore.app.runtime.win-x64.9.0.8.nupkg.sha512",
-    "/home/frieder/.nuget/packages/microsoft.netcore.app.host.win-x64/9.0.8/microsoft.netcore.app.host.win-x64.9.0.8.nupkg.sha512"
+    "/home/frieder/.nuget/packages/pangosharp/3.24.24.95/pangosharp.3.24.24.95.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file /home/frieder/csharp/AlbumEdit/Album/obj/project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "/home/frieder/csharp/AlbumEdit/Album/Album.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/frieder/csharp/AlbumEdit/Album/Album.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

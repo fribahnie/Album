@@ -1,0 +1,5 @@
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.csproj.AssemblyReference.cache
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.GeneratedMSBuildEditorConfig.editorconfig
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.AssemblyInfoInputs.cache
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.AssemblyInfo.cs
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.csproj.CoreCompileInputs.cache

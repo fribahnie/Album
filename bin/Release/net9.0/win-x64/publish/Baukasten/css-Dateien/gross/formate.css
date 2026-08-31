@@ -1,0 +1,13 @@
+div.container { position:absolute; top:50%; margin-top:-540px;
+	      width:1920px; height:1080px; left:50%; font-size:2.0em;
+	      margin-left:-960px; border:0px solid #804000; padding:0px;}
+
+div.gross    { position:absolute;  width:1920px; height:1080px; 
+	       margin-left:auto; margin-right:auto;}
+div.breit    { position:absolute; high:1080px; left:240px; }
+div.hoch     { position:absolute; left:50%; margin-left:-555px;   }
+div.murks    { position:absolute; top:888px; left:1728px; }
+div.blatt    { position:absolute; top:888px; left:1824px; }
+div.zurueck  { position:absolute; top:984px; left:1728px; }
+div.vor      { position:absolute; top:984px; left:1824px; }
+img          { max-width:1920px; max-height:1080px;}

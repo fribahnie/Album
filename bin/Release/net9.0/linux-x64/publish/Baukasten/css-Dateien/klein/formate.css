@@ -1,0 +1,12 @@
+div.container { position:absolute; top:50%; margin-top:-381px;
+	      width:1280px; height:762px; left:50%; font-size:fontsizestr;
+	      margin-left:-640px; border:0px solid #804000; padding:0px;}
+
+div.gross    { position:absolute;  width:1280px; height:762px; 
+	       margin-left:auto; margin-right:auto;}
+div.breit    { position:absolute; high:762px; left:132px; }
+div.hoch     { position:absolute; left:50%; margin-left:-355px;   }
+div.murks    { position:absolute; top:700px;  left:1162px;  }
+div.blatt    { position:absolute; top:700px;  left:1202px; }
+div.zurueck  { position:absolute; top:740px; left:1162px; }
+div.vor      { position:absolute; top:740px; left:1202px; }

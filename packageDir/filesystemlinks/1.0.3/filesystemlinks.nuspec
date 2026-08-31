@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FileSystemLinks</id>
+    <version>1.0.3</version>
+    <authors>DarkDaskin</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <description>A cross-platform library for creating and reading file system links.</description>
+    <tags>filesystem, io, link, symlink, hard, symbolic, junction</tags>
+    <repository type="git" url="https://github.com/DarkDaskin/FileSystemLinks.git" commit="6d1865928592c851fcef5a1009c315b373fbe45f" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1" />
+      <group targetFramework="net5.0" />
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+</package>

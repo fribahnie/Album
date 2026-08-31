@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Die Maße der Vorschaubilder
+     und Werte für ihre Platzierung.
+     'groesse' ist die Voreinstellung für die Displaygröße.
+-->
+<vorschau>
+  <breite>320</breite>
+  <hoehe>240</hoehe>
+  <yoffset>50</yoffset>
+  <abstand>10</abstand>
+  <groesse>2</groesse>
+</vorschau>

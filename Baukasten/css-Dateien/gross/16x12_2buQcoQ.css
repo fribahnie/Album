@@ -1,0 +1,36 @@
+/*
+  Mit Ruby erzeugte Werte für die Größe 'mittel' oder 'gross':
+*/
+
+div.rahmenor { position:absolute; top:562px; 
+	       left:342px; }
+div.rahmenul { position:absolute; top:48px; 
+	       left:904px;  }
+
+div.bildor { position:absolute; top:601px;  
+	     left:398px; }
+div.bildul { position:absolute; top:87px; 
+	     left:960px;  }
+
+div.ueber  { position:absolute; top:10px; width:1400px;  
+             left:181px; font-size:2.0em; font-weight:bold;
+	     border:0px solid transparent; padding:0px; text-align:center; }
+
+div.textol { position:absolute; top:87px; width:266px;  
+             left:398px; font-size:1.4em;
+	     border:0px solid transparent; padding:0px; text-align:left; }
+div.textur { position:absolute; top:601px; font-size:1.4em; 
+	     width:266px; left:1031px; 
+             padding:0px; text-align:left; }
+
+div.seite  { position:absolute; top:20px; left:1536px;
+	     border:0px solid transparent; padding:0px; font-size:1.0em;
+	     font-weight:normal; text-align:left; }
+
+div.container { position:absolute; top:50%; margin-top:-444px;
+		width:1920px; height:1080px; left:50%; 
+                margin-left:-960px; font-size:2.0em;
+		border:0px solid #804000; padding:0px; }
+div.seiteback { position:absolute; top:10px; left:1632px;}
+div.seitetop  { position:absolute; top:10px; left:1728px; }
+div.seitevor  { position:absolute; top:10px; left:1824px;} 

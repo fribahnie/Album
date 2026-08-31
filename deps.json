@@ -1,0 +1,42 @@
+[
+  {
+    "pname": "AtkSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-NgdWbXToBHhEVbvPrFcwXeit5iaqbBmNPQiC0jPKlnQ="
+  },
+  {
+    "pname": "CairoSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-ycdgmQyQ1uSshI/9uMaqn5OBxRF8RADf4Tn/TptE2BU="
+  },
+  {
+    "pname": "FileSystemLinks",
+    "version": "1.0.3",
+    "hash": "sha256-1dIrkYIiXpSkP2IDdufTAYdy/9M/UrXxfIUHut6pbo8="
+  },
+  {
+    "pname": "GdkSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-NYjADgZG9TUQDIZiSSXDAxj5PyX/B7oKRo9f8Oyb4vI="
+  },
+  {
+    "pname": "GioSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-5THx4af5PghPnQxXdnsC+wtVcoslh+0636WkB1FaPYg="
+  },
+  {
+    "pname": "GLibSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-1pDRkKoUI9fLJBcTA2DBlpVccJl2GyAdL+VKjsFbttA="
+  },
+  {
+    "pname": "GtkSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-sBvk5Ecf2i6c2fYVjMBVoXz0I6IlucOWeE2czZH9QHg="
+  },
+  {
+    "pname": "PangoSharp",
+    "version": "3.24.24.95",
+    "hash": "sha256-YhltIz1jisJqR2ZxvbYy0ybi4oGw6qR2SkjF/2aWiBQ="
+  }
+]

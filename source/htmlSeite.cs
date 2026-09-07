@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using System.Collections;
 using Startfenster;
@@ -136,15 +135,16 @@ namespace ModuleHtml
 		}
 
 
-	        static string TextToHtml(string input){
-		    string escaped = WebUtility.HtmlEncode(input);
-		    var paragraphs = Regex.Split(escaped, @"\r?\n\s*\r?\n");
-		    var parts = paragraphs
-			.Select(p => Regex.Replace(p.Trim(), @"\r?\n", "<br/>"))
-			.Where(p => p.Length > 0);
-		    string body = string.Join("</p>\n<p>", parts);
-		    return body.Length > 0 ? $"<p>{body}</p>"
-			: "";
+		static string TextToHtml(string input)
+		{
+			string escaped = WebUtility.HtmlEncode(input);
+			var paragraphs = Regex.Split(escaped, @"\r?\n\s*\r?\n");
+			var parts = paragraphs
+				.Select(p => Regex.Replace(p.Trim(), @"\r?\n", "<br/>"))
+				.Where(p => p.Length > 0);
+			string body = string.Join("</p>\n<p>", parts);
+			return body.Length > 0 ? $"<p>{body}</p>"
+		: "";
 		}
 	}
 }

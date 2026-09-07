@@ -1,7 +1,11 @@
+using System;
 using System.IO;
 using System.Collections;
 using Startfenster;
 using AlbumBasis;
+using System.Linq;
+using System.Net;
+using System.Text.RegularExpressions;
 
 namespace ModuleHtml
 {
@@ -98,6 +102,7 @@ namespace ModuleHtml
 			for (int i = 0; i < vorschauseite.Kommentarliste.Count; i++)
 			{
 				string komm = vorschauseite.Kommentarliste[i];
+				komm = TextToHtml(komm);
 				htmltext = htmltext.Replace(suchkomm[i], komm);
 			}
 
@@ -128,6 +133,18 @@ namespace ModuleHtml
 			System.IO.File.WriteAllText(dateipfad, htmltext, System.Text.Encoding.UTF8);
 			seitenzaehler++;
 			Seitenzaehler = seitenzaehler;
+		}
+
+
+	        static string TextToHtml(string input){
+		    string escaped = WebUtility.HtmlEncode(input);
+		    var paragraphs = Regex.Split(escaped, @"\r?\n\s*\r?\n");
+		    var parts = paragraphs
+			.Select(p => Regex.Replace(p.Trim(), @"\r?\n", "<br/>"))
+			.Where(p => p.Length > 0);
+		    string body = string.Join("</p>\n<p>", parts);
+		    return body.Length > 0 ? $"<p>{body}</p>"
+			: "";
 		}
 	}
 }

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ 'copyimages' true: Die Bilder werden ins betreffende
+ Fotoalbum kopiert;
+
+ 'Fotoalben' Der Name für das Verzeichnis, das die
+ Fotoalben enthält;
+ 
+ 'bildformat' 16x12 kann auf 16x09 umgestellt werden;
+
+ 'drehwinkel' 270 wie Hochkantbilder gegebenenfalls gedreht
+ werden. Kann bei Bedarf auf 90 umgestellt werden.
+
+ 'sprache' Die beiden Sprachen, zwischen den gewählt werden kann. 
+ 
+-->
+<DefaultWerte>
+  <copyimages>true</copyimages>
+  <aktiv>true</aktiv>
+  <fotoalben>Fotoalben</fotoalben>
+  <bildformat>16x12</bildformat>
+  <drehwinkel>90</drehwinkel>
+  <sprache>local_en.txt</sprache>
+  <sprache>local_de.txt</sprache>
+  <lang_default>local_de.txt</lang_default>
+  <alternatdirectory>Z:</alternatdirectory>
+</DefaultWerte>

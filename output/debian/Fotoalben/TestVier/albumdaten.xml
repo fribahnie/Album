@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<album>
+<inhaltbild>../../../../Baukasten/Beispielbilder/IMG_1768.JPG</inhaltbild>
+  <seite>
+    <format>1cmQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Eine Hibiskusblüte</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>./Baukasten/DefaultBilder/P559.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Bildauswahl z.B. mit Hilfe des integrierten
+Dateimanagers. 'Paste': Rechte Maustaste</kommentar>
+        <kommentar>Falls das Album nicht mit einem Einzelbild
+beginnen soll, sollten zuerst weitere 
+Seiten erstellt werden.
+Danach kann auch diese Starteite problemlos
+gelöscht werden.</kommentar>
+    </kommentarliste>
+  </seite>
+  <seite>
+    <format>3amQcuQdoQ</format>
+    <bildformat>16x12</bildformat>
+    <titel>Deine Überschrift</titel>
+    <inhalt></inhalt>
+    <bilder>
+        <bilddatei>../../../Pictures/2012/2012_05_Diamantene Hochzeit/_DSC2895.JPG</bilddatei>
+        <bilddatei>../../../Pictures/2012/2012_05_Diamantene Hochzeit/_DSC2892.JPG</bilddatei>
+        <bilddatei>../../../Pictures/2012/2012_05_Diamantene Hochzeit/_DSC2896.JPG</bilddatei>
+    </bilder>
+    <kommentarliste>
+        <kommentar>Erstes Textfeld</kommentar>
+        <kommentar>Zweites Textfeld</kommentar>
+    </kommentarliste>
+  </seite>
+</album>

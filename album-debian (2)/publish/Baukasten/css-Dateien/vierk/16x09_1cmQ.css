@@ -1,0 +1,48 @@
+
+div.rahmenol   { position:absolute; 
+	       top:296px;
+	       left:696px; }
+
+div.bildol     { position:absolute; 
+	       top:514px;   
+	       left:914px; }
+
+div.ueber      { position:absolute; top:20px; width:1400px;  
+               left:120px; font-size:2.0em; font-weight:bold;
+	       border:0px solid transparent; padding:0px; text-align:center;
+	       color:rgb(255,255,255);
+	       }
+
+div.textol     { position:absolute; 
+	       top:1894px; 
+	       left:914px;
+	       width:976px;
+	       font-size:1.4em;
+	       border:0px solid transparent; 
+	       padding:0px; 
+	       text-align:left; 
+	       color:rgb(255,255,255)}
+
+div.textur     { position:absolute; 
+	       top:1894px; 
+	       left:1920px;
+	       width:976px;
+	       font-size:1.4em;
+	       border:0px solid transparent; 
+	       padding:0px; 
+	       text-align:left; 
+	       color:rgb(255,255,255)}
+
+div.seite      { position:absolute; top:42px; left:3072px;
+		 border:0px solid transparent; padding:0px;
+		 font-size:1.0em; font-weight:normal; text-align:left;
+	       }
+
+div.container { position:absolute; top:50%; margin-top:-888px;
+		width:displaywidthstr; height:2160px; left:50%; 
+                margin-left:-1920px; font-size:2.0em;
+		border:0px solid #804000; padding:0px; }
+div.seiteback { position:absolute; top:21px; left:3264px;}
+div.seitetop  { position:absolute; top:21px; left:3456px; }
+div.seitevor  { position:absolute; top:21px; left:3648px;} 
+

@@ -1,0 +1,40 @@
+/*
+  Mit Ruby erzeugte Werte für die Größe 'mittel' oder 'gross':
+*/
+
+div.rahmenol { position:absolute; top:682px; 
+	       left:211px; }
+div.rahmenor { position:absolute; top:435px; 
+	       left:1421px; }
+div.rahmenur { position:absolute; top:96px; 
+	       left:2661px; }
+
+div.bildol   { position:absolute; top:794px;  
+	       left:289px; }
+div.bildor   { position:absolute; top:547px;  
+	       left:1499px; }
+div.bildur   { position:absolute; top:208px; 
+	       left:2739px; }
+
+div.ueber  { position:absolute; top:20px; width:1400px;  
+             left:362px; font-size:2.0em; font-weight:bold;
+	     border:0px solid transparent; padding:0px; text-align:center; }
+
+div.textol { position:absolute; top:174px; width:532px;  
+             left:362px; font-size:1.4em;
+	     border:0px solid transparent; padding:0px; text-align:left; }
+div.textul { position:absolute; top:1522px; 
+	     width:532px; left:2743px; font-size:1.4em; 
+             padding:0px; text-align:left; }
+
+div.seite  { position:absolute; top:42px; left:3072px;
+	     border:0px solid transparent; padding:0px; font-size:1.0em;
+	     font-weight:normal; text-align:left; }
+
+div.container { position:absolute; top:50%; margin-top:-888px;
+		width:3840px; height:2160px; left:50%; 
+                margin-left:-1920px; font-size:2.0em;
+		border:0px solid #804000; padding:0px; }
+div.seiteback { position:absolute; top:21px; left:3264px;}
+div.seitetop  { position:absolute; top:21px; left:3456px; }
+div.seitevor  { position:absolute; top:21px; left:3648px;} 

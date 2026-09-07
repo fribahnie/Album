@@ -1,0 +1,113 @@
+/*
+ Werte für die Größe 'gross' bei 16 x 9 mit drei Basislinien:
+
+ Höhenangaben für die drei Basislinien:
+ Vertikale Werte:
+ (Spaltenhöhe 14px, Rahmenhöhe 499px)
+         v_1: horizontale Linie durch die obere Rahmenmitte (und Bildmitte):
+         v_1: 298px =  48 + 250            = kopf + Rahmenhöhe/2
+ 	 v_2: horizontale Linie zwischen den oberen und unteren Rahmen:
+         v_2: 562px =  48 + 499 + 15       = kopf + Rahmenhöhe + Spalte/2
+         v_3: horizontale Linie durck die untere Rahmenmitte (und Bildmitte):
+         v_3: 811px =  48 + 499 + 14 + 250 = kopf + Spalte + 3 * Rahmenhöhe/2
+ top_footer: 1060px =   48 +  2 * 499 + 14 = kopf + 2 * Rahmenhöhe + Spalte
+ top_navi:   1027px = 1060 − 33            = top_footer − navi_höhe
+
+              mittel -> gross   
+Kopfleiste:     40px ->   48px
+ Rahmenbreite: 562px ->  674px
+ Rahmenhöhe:   339px ->  407px
+ Rahmenhöhe/2: 170px ->  204px
+ Bildbreite:   510px ->  612px 
+ Bildhöhe:     287px ->  344px
+ Bildhöhe/2:   143px ->  172px
+ Bildbreite:   510px ->  612px
+ Bildbreite/2: 255px ->  306px
+ Fußleiste:     14px ->   17px
+
+ 4 Bilder im Querformat (vertikale. Werte):
+ top rahmenoben:  v_1 - ( Rahmenhöhe / 2 ) : 298 - 204 =  94px
+ top rahmenunten: v_3 - ( Rahmenhöhe / 2 ) : 811 - 204 = 607px
+ top bildoben:    v_1 - ( Bildhöhe   / 2 ) : 298 - 172 = 126px
+ top bildunten:   v_3 - ( Bildhöhe   / 2 ) : 811 - 172 = 639px
+
+ Werte für 2 Bilder Größe 'gross' bei 16 x 9 :
+ Rahmen             Bild:
+# noch die alten Werte:
+#oben:  left 582px  left 582px + 26px = 608px
+ #unten: left 296px  left 296px + 26px = 322px
+
+
+==========================================================
+
+ Werte für die Größe 'gross' bei 16 x 12 mit Basislinien:
+ x: margin links und rechts
+ s: Spaltenbreite zwischen den Rahmen
+ gesamt: 2 * x + 4 * s + 5 * Rahmenbreite/2 = 2 * x + 4 * s + 5 * 337
+ 2 * 110 + 14 + 5 * 674 / 2 = 
+ 2x = 1920px - 15px - 5 * 674px / 2 = 110px 
+
+horizontale Werte für 16x12:
+alt: (Spaltenbreite 10px, Rahmenbreite 562px)
+neu ('gross'): Spaltenbreite 15px, Rahmenbreite 674px
+ h_1:                     =  110px
+
+ h_3: 110 + 674           =  784px Rahmenmitte oben links
+      	       	 	  Rahmenstart:  784 - 337 = 447
+      	       	 	  Bildstart: 447px + 47px = 494px 
+ h_5: 110 + 2 * 674       = 1458px Rahmenmitte oben rechts
+      	       	     	  Rahmenstart: 1458 - 337 = 1121px
+      	       	 	  Bildstart: 1121px + 47px = 1168px
+ h_2: 110 + 674/2         =  447px Rahmenmitte unten links
+      	   		  Rahmenstart:  447 - 337 =  110
+      	       	 	  Bildstart: 90px + 47px = 137px
+ h_4: 110 + 15 + 3 * 337  = 1115px Rahmenmitte unten rechts
+      	       		  Rahmenstart: 1115 - 337 = 778px
+      	       	 	  Bildstart: 778px + 47px = 825px
+ h_6: 110 + 5 * 337 + 15  = 1810px Rahmenende oben rechts
+
+horiz. Versatz von Rahmen und Bild:
+(Rahmenbreite - Bildbreite)/2
+16x12:	 (674px - 562px)/2 = 66px
+	
+16x09:	 (674px - 612px)/2 = 31px
+
+vert. Versatz von Rahmen und Bild:
+(Rahmenhöhe - Bildhöhe)/2:
+16x12:   (499px - 421px)/2 = 78px/2 = 39px
+16x09:	 (407px - 344px)/2 = 63px/2 = 31px
+
+
+ 16x12:
+ Kopfleiste:    40px ->   48px
+ Rahmenbreite: 562px ->  674px
+ Rahmenhöhe:   416px ->  499px
+ Bildbreite:   468px ->  562px
+ Bildhöhe:     351px ->  421px
+ Bildhöhe/2:   175px ->  210px
+ Bildbreite:   468px ->  562px
+ Bildbreite/2: 234px ->  281px
+ Fußleiste:     16px ->   19px
+ Spalte:        12px ->   15px
+
+ Summe der Höhen stimmt: 48px + 499px + 15px + 499px + 19px = 1080px 
+
+ 4 Bilder 'gross' im Querformat bei 16x12:
+ top rahmenoben:   48px = v_1 - ( Rahmenhöhe / 2 ) = kopf
+ top bildoben:     87px = v_1 - ( Bildhöhe   / 2 ) = kopf + vert. Versatz
+ top rahmenunten: 562px = v_3 - ( Rahmenhöhe / 2 ) = kopf + Rahmenhöhe + Spalte  = 48 + 499 + 15
+ top bildunten:   601px = v_3 - ( Bildhöhe   / 2 ) = kopf + Rahmenhöhe + Spalte + vert. Versatz
+
+
+Werte für 2 Bilder Größe 'gross' bei 16 x 12 :
+ 
+oben:
+ top_Rahmen:              vert: 48px left:  110px + 674px + 15px = 799px
+ bildoben:                vert: 87px left:  799px +  47px        = 846px
+
+unten:
+ top_Rahmen:              vert v_2  = 562px   left: 110px
+ bildunten:              562px + 39px = 601px left: 176px
+*/
+
+

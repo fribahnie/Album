@@ -191,7 +191,6 @@
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/hostfxr.dll
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/hostpolicy.dll
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/mscordaccore.dll
-/home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/mscordaccore_amd64_amd64_9.0.1926.36724.dll
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/mscordbi.dll
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/mscorrc.dll
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/msquic.dll
@@ -206,3 +205,4 @@
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Release/net9.0/win-x64/Album.pdb
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Release/net9.0/win-x64/Album.genruntimeconfig.cache
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Release/net9.0/win-x64/ref/Album.dll
+/home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/mscordaccore_amd64_amd64_9.0.1726.26416.dll

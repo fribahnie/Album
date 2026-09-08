@@ -30,7 +30,7 @@
           projectFile = "Album.csproj";
           executables = [ "Album" ];
 
-          dotnet-sdk = pkgs.dotnet-sdk_10;
+          dotnet-sdk = pkgs.dotnet-sdk_9;
           nugetDeps = ./deps.json;
 
           nativeBuildInputs = with pkgs; [

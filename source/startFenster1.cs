@@ -185,7 +185,7 @@ namespace Startfenster
 
 			// Gtk.Button tb1 = new("Abbruch");
 			// tb2 = new Gtk.Button("    Go!    ");
-			Button tb1 = new(Localarray[8]);
+			Button tb1 = new (Localarray[8]);
 			tb2 = new Button(Localarray[9]);
 
 			pbar = new Gtk.ProgressBar
@@ -195,9 +195,11 @@ namespace Startfenster
 			vbox1.PackStart(pbar, false, false, 10);
 			pbar.Show();
 
-			entry1 = new Gtk.Entry();
-			entry1.IsEditable = false;
-			entry1.Changed += new EventHandler(OnEntryChanged);
+            entry1 = new Gtk.Entry
+            {
+                IsEditable = false
+            };
+            entry1.Changed += new EventHandler(OnEntryChanged);
 
 			radiobutton1.Clicked += new EventHandler(OnRadio1Clicked);
 			radiobutton2.Clicked += new EventHandler(OnRadio2Clicked);

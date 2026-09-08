@@ -13,7 +13,7 @@ namespace Startfenster
 			//[47]:  "Okay"
 			//[8]:  "  Abbruch "
 			FileChooserDialog fcd = new(StartFenster.Localarray[41],
-								 StartFenster.myWin,
+								 StartFenster.MyWin,
 								 FileChooserAction.SelectFolder,
 								 StartFenster.Localarray[47],
 								 ResponseType.Ok,

@@ -276,7 +276,6 @@ namespace Startfenster
 			args.RetVal = true;
 		}
 
-
 		static void OnTerminated(object sender, EventArgs args)
 		{
 			Gtk.Application.Quit();

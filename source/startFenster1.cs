@@ -84,7 +84,9 @@ namespace Startfenster
 		public static List<Gtk.MenuItem> FormateList { get; set; }
 
 
-		public static Gtk.Window myWin;        // public: wird später von 'AlbumRead()' gelöscht 
+		static Gtk.Window _window;        // wird später von 'AlbumRead()' gelöscht     
+		// Öffentlicher Nur-Lese-Zugriff:    
+		public static Gtk.Window MyWin => _window;
 		static Gtk.Entry entry1;
 		static Gtk.Label myLabel;
 		static Gtk.RadioButton radiobutton1;
@@ -99,7 +101,7 @@ namespace Startfenster
 
 		public static void Main()
 		{
-			/*
+	    /*
 	      Ermittelt die Werte von
 	       – Plattform
 	       – AlbumRootPath
@@ -109,7 +111,7 @@ namespace Startfenster
 	    */
 			BestimmePlattform();
 			RelativPaths.RelativePfade();
-			/*
+	    /*
 	      Nun wird die Datei 'DefaultWerte.xml' eingelesen. Sie liefert
 	       – 'Aktiv' 
 	       – 'Bildformat'
@@ -136,9 +138,9 @@ namespace Startfenster
 			Console.WriteLine("Nun soll das Startfenster erstellt werden.");
 			//Erstelle das StartFenster:
 			//[37]: "Erstelle dein Fotoalbum!"
-			myWin = new Window(Localarray[37]);
-			myWin.Resize(500, 150);
-			myWin.DeleteEvent += new DeleteEventHandler(Window_Delete);
+			_window = new Window(Localarray[37]);
+			MyWin.Resize(500, 150);
+			MyWin.DeleteEvent += new DeleteEventHandler(Window_Delete);
 			Gtk.Label copyLabel = new("Bilder kopieren?");
 
 			Box vbox = new(Orientation.Vertical, 5);   // Gesamtbox
@@ -232,13 +234,24 @@ namespace Startfenster
 			vbox.PackStart(hbox3, false, false, 2); // die Buttons
 
 			//Add the vbox to the window
-			myWin.Add(vbox);
+			MyWin.Add(vbox);
 
 			//Show Everything
-			myWin.ShowAll();
+			MyWin.ShowAll();
 
 			Gtk.Application.Run();
 		}
+
+		   public static void Schliessen()    
+		   {        
+			  var w = _window;        
+			  if (w != null)            
+			    GLib.Idle.Add(
+				  () => { w.Destroy(); return false; }
+				);        
+				_window = null;    
+			}
+
 
 		static void BestimmePlattform()
 		{

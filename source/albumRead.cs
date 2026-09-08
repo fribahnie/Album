@@ -72,8 +72,7 @@ namespace AlbumBasis
 	    */
 			XmlDocument xmlalbum = new();                   // 'albumdaten.xml'
 			xmlalbum.Load(fi.FullName);                     // wird eingelesen;
-			UntersucheAlbum(xmlalbum);                      // ruft die nächste Stufe
-																											// der Analyse auf
+			UntersucheAlbum(xmlalbum);                      // ruft die nächste Stufe																								// der Analyse auf
 		}
 
 
@@ -121,7 +120,8 @@ namespace AlbumBasis
 																						//funktioniert nicht mehr: SystemSounds.Asterisk.Play();        
 																						// Einlesen ist abgeschlossen.
 			Console.WriteLine("Die Länge der Seitenliste ist {0}", Seitenliste.Count);
-			StartFenster.myWin.Destroy();
+			//StartFenster.myWin.DestroyWindow();
+			StartFenster.Schliessen();
 		}
 	}
 }

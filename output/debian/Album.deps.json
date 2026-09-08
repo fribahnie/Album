@@ -1,23 +1,23 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v9.0/linux-x64",
+    "name": ".NETCoreApp,Version=v9.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {},
-    ".NETCoreApp,Version=v9.0/linux-x64": {
+    ".NETCoreApp,Version=v9.0/win-x64": {
       "Album/1.0.0": {
         "dependencies": {
           "FileSystemLinks": "1.0.3",
           "GtkSharp": "3.24.24.95",
-          "runtimepack.Microsoft.NETCore.App.Runtime.linux-x64": "9.0.17"
+          "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "9.0.17"
         },
         "runtime": {
           "Album.dll": {}
         }
       },
-      "runtimepack.Microsoft.NETCore.App.Runtime.linux-x64/9.0.17": {
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/9.0.17": {
         "runtime": {
           "Microsoft.CSharp.dll": {
             "assemblyVersion": "9.0.0.0",
@@ -697,49 +697,49 @@
           }
         },
         "native": {
-          "createdump": {
+          "Microsoft.DiaSymReader.Native.amd64.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libSystem.Globalization.Native.so": {
+          "System.IO.Compression.Native.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libSystem.IO.Compression.Native.so": {
+          "clretwrc.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libSystem.Native.so": {
+          "clrgc.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libSystem.Net.Security.Native.so": {
+          "clrgcexp.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libSystem.Security.Cryptography.Native.OpenSsl.so": {
+          "clrjit.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libclrgc.so": {
+          "coreclr.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libclrgcexp.so": {
+          "createdump.exe": {
             "fileVersion": "0.0.0.0"
           },
-          "libclrjit.so": {
+          "hostfxr.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libcoreclr.so": {
+          "hostpolicy.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libcoreclrtraceptprovider.so": {
+          "mscordaccore.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libhostfxr.so": {
+          "mscordaccore_amd64_amd64_9.0.1726.26416.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libhostpolicy.so": {
+          "mscordbi.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libmscordaccore.so": {
+          "mscorrc.dll": {
             "fileVersion": "0.0.0.0"
           },
-          "libmscordbi.so": {
+          "msquic.dll": {
             "fileVersion": "0.0.0.0"
           }
         }
@@ -840,7 +840,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.NETCore.App.Runtime.linux-x64/9.0.17": {
+    "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/9.0.17": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -903,39 +903,8 @@
     }
   },
   "runtimes": {
-    "android-x64": [
-      "android",
-      "linux-bionic-x64",
-      "linux-bionic",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-bionic-x64": [
-      "linux-bionic",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-musl-x64": [
-      "linux-musl",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-x64": [
-      "linux",
-      "unix-x64",
-      "unix",
+    "win-x64": [
+      "win",
       "any",
       "base"
     ]

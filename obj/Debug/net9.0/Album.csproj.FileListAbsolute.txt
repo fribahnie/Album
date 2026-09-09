@@ -22,3 +22,4 @@
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.pdb
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.genruntimeconfig.cache
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/ref/Album.dll
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Debug/net9.0/Album.sourcelink.json

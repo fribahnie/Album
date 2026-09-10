@@ -206,3 +206,4 @@
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Release/net9.0/win-x64/Album.genruntimeconfig.cache
 /home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Release/net9.0/win-x64/ref/Album.dll
 /home/frieder/csharp_Projekte/AlbumEditor/Album/bin/Release/net9.0/win-x64/mscordaccore_amd64_amd64_9.0.1726.26416.dll
+/home/frieder/csharp_Projekte/AlbumEditor/Album/obj/Release/net9.0/win-x64/Album.sourcelink.json

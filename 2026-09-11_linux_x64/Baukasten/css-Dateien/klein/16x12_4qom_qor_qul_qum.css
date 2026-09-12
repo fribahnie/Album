@@ -1,0 +1,36 @@
+
+div.rahmenol { position:absolute; top:21px; 
+	       left:244px; }
+div.rahmenor { position:absolute; top:21px; 
+	       left:762px; }
+div.rahmenul { position:absolute; top:393px; 
+	       left:10px;  }
+div.rahmenur { position:absolute; top:393px; 
+	       left:528px; }
+
+div.bildol { position:absolute; top:49px;  
+	     left:288px; }
+div.bildor { position:absolute; top:49px;  
+	     left:806px; }
+div.bildul { position:absolute; top:420px; 
+	     left:54px;  }
+div.bildur { position:absolute; top:420px; 
+	     left:572px; }
+
+div.ueber  { position:absolute; top:4px; width:1280px;  
+             left:26px; font-size:14px; font-weight:bold;
+	     border:0px solid transparent; padding:0px; text-align:center; }
+div.textol { position:absolute; top:50px; width:208px;  
+             left:26px; font-size:12px; font-weight:bold;
+	     border:0px solid transparent; padding:0px; text-align:left; }
+div.textur { position:absolute; top:425px; 
+	     width:208px; left:1046px; font-size:12px; font-weight:bold;
+             padding:0px; text-align:left; }
+
+div.container { position:absolute; top:86%; margin-top:-411px;
+		width:1280px; height:760px; left:50%; 
+                margin-left:-640px; font-size:16px; 
+		border:0px solid #804000; padding:0px; }
+div.seiteback { position:absolute; top:729px; left:1088px;}
+div.seitetop  { position:absolute; top:729px; left:1152px; }
+div.seitevor  { position:absolute; top:729px; left:1216px;} 

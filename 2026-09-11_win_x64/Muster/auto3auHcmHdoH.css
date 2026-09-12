@@ -1,0 +1,40 @@
+/*
+  Mit Ruby erzeugte Werte für die Größe 'mittel' oder 'gross':
+*/
+
+div.rahmenol { position:absolute; top:v_rahmenobenlinksstr; 
+	       left:h_rahmenobenlinksstr; }
+div.rahmenor { position:absolute; top:v_rahmenobenrechtsstr; 
+	       left:h_rahmenobenrechtsstr; }
+div.rahmenur { position:absolute; top:v_rahmenuntenrechtsstr; 
+	       left:h_rahmenuntenrechtsstr; }
+
+div.bildol   { position:absolute; top:vx_bildobenlinksstr;  
+	       left:hx_bildobenlinksstr; }
+div.bildor   { position:absolute; top:vx_bildobenrechtsstr;  
+	       left:hx_bildobenrechtsstr; }
+div.bildur   { position:absolute; top:vx_bilduntenrechtsstr; 
+	       left:hx_bilduntenrechtsstr; }
+
+div.ueber  { position:absolute; top:v_ueberstr; width:1400px;  
+             left:h_ueberstr; font-size:2.0em; font-weight:bold;
+	     border:0px solid transparent; padding:0px; text-align:center; }
+
+div.textol { position:absolute; top:v_textobenlinksstr; width:w_textstr;  
+             left:h_textobenlinksstr; font-size:1.4em;
+	     border:0px solid transparent; padding:0px; text-align:left; }
+div.textul { position:absolute; top:v_textuntenrechtsstr; 
+	     width:w_textstr; left:h_textuntenrechtsstr; font-size:1.4em; 
+             padding:0px; text-align:left; }
+
+div.seite  { position:absolute; top:v_seitestr; left:h_seitestr;
+	     border:0px solid transparent; padding:0px; font-size:1.0em;
+	     font-weight:normal; text-align:left; }
+
+div.container { position:absolute; top:50%; margin-top:-v_halfdisplaystr;
+		width:w_displaystr; height:displayhighstr; left:50%; 
+                margin-left:-h_halfdisplaystr; font-size:2.0em;
+		border:0px solid #804000; padding:0px; }
+div.seiteback { position:absolute; top:v_linkstr; left:h_linkbackstr;}
+div.seitetop  { position:absolute; top:v_linkstr; left:h_linktopstr; }
+div.seitevor  { position:absolute; top:v_linkstr; left:h_linknextstr;} 

@@ -30,7 +30,7 @@
           projectFile = "Album.csproj";
           executables = [ "Album" ];
 
-          dotnet-sdk = pkgs.dotnet-sdk_9;
+          dotnet-sdk = pkgs.dotnet-sdk_10;
           nugetDeps = ./deps.json;
 
           nativeBuildInputs = with pkgs; [
@@ -89,7 +89,7 @@
       {
 	devShells.default = pkgs.mkShell {
 	  packages = with pkgs; [
-	    dotnet-sdk_9
+	    dotnet-sdk_10
 	    gsettings-desktop-schemas
 	    glib
 	    gtk3

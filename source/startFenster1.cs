@@ -52,6 +52,8 @@ namespace Startfenster
 						'LiesDefaultWerteEin()'	
 						'SpracheLaden(LangDefault)'	
 						'Application.Init()'
+
+					'Schliessen()' // löscht das erste Startfenster; aufgerufen von 'albumRead'
 		 */
 		public static string[] Bereiche { set; get; }// { "mittel", "gross", "vierk" };
 		public static string AlbumRootPath { set; get; }// Pfad zu dem Programm
@@ -244,15 +246,15 @@ namespace Startfenster
 			Gtk.Application.Run();
 		}
 
-		   public static void Schliessen()    
-		   {        
-			  var w = _window;        
-			  if (w != null)            
+		public static void Schliessen()    
+		{        
+			var w = _window;        
+			if (w != null)            
 			    GLib.Idle.Add(
 				  () => { w.Destroy(); return false; }
 				);        
-				_window = null;    
-			}
+			_window = null;    
+		}
 
 
 		static void BestimmePlattform()

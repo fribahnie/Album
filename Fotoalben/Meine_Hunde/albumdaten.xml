@@ -54,8 +54,12 @@
         <bilddatei>./Baukasten/Beispielbilder/Hunde/hund011.jpg</bilddatei>
     </bilder>
     <kommentarliste>
-        <kommentar>Mein erstes Textfeld</kommentar>
-        <kommentar>Mein zweites Textfeld</kommentar>
+        <kommentar>Mein erstes Textfeld
+
+Das müsste einen neuen Absatz ergeben.</kommentar>
+        <kommentar>Mein zweites Textfeld
+
+Da geht einem das Herz auf!</kommentar>
     </kommentarliste>
   </seite>
 </album>

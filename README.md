@@ -1,5 +1,5 @@
 # AlbumEditor 
-folgt der Idee, analoge Fotoalben digital nachzubauen. Also nie mehr Bilder ausdrucken, einkleben, beschriften…!!! 
+Die App 'AlbumEditor' verfolgt die Idee, analoge Fotoalben digital nachzubauen. Also nie mehr Bilder ausdrucken, einkleben, beschriften…!!! 
 Erstelle Deine Alben mit den schönsten Erinnerungen und den eindrücklichsten Fotos einfach in digitaler Form!
 Voraussetzung ist lediglich ein FullHD- oder, noch besser, ein 4K-Bildschirm und ein Rechner mit Windows 11 oder Linux als Betriebssystem.
 
@@ -24,7 +24,7 @@ Ein Bildschirmausschnitt mit dem VorschauEditor:
 
 ![Bildschirmfoto vom 2025-07-09 09-54-05](https://github.com/user-attachments/assets/f223855e-ac3f-4c5d-b06e-27816480a9f4)
 
-Das Ergebnis als fertige html-Seite auf dem 4K-Bildschirm, kann hier leider nur klein wiedergegeben werden:
+Das Ergebnis als fertige html-Seite auf dem 4K-Bildschirm (Es kann hier leider nur klein wiedergegeben werden):
 
 ![Screenshot 2025-07-09 at 09-49-54 2019_Sommer](https://github.com/user-attachments/assets/9c8fb22e-beda-4e7d-9c87-cc03c02b3003)
 

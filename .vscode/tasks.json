@@ -7,13 +7,6 @@
       "command": "env TMPDIR=/tmp dotnet build",
       "group": { "kind": "build", "isDefault": true },
       "problemMatcher": "$msCompile"
-    },
-    {
-      "label": "diag",
-      "type": "shell",
-      "command": "bash",
-      "args": ["-c", "echo \"TMPDIR=[$TMPDIR]\"; ls -ld \"$TMPDIR\" 2>&1; type -a dotnet"],
-      "problemMatcher": []
     }
   ]
 }

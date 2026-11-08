@@ -2,7 +2,7 @@
   description = "Album - GTK# .NET Application";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/c56a87d8e41ce69bd2af57eb35dcc117a9dfca33";    
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -89,7 +89,7 @@
       {
 	devShells.default = pkgs.mkShell {
 	  packages = with pkgs; [
-	    dotnet-sdk_10
+	    # dotnet-sdk_10
 	    gsettings-desktop-schemas
 	    glib
 	    gtk3
@@ -102,6 +102,7 @@
 	  ];
 
 	  shellHook = ''
+	  unset TMPDIR TMP TEMP TEMPDIR
 	  export XDG_DATA_DIRS="${pkgs.gsettings-desktop-schemas}/share/gsettings-schemas/${pkgs.gsettings-desktop-schemas.name}:$XDG_DATA_DIRS"
           export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath (with pkgs; [
             gtk3

@@ -1,5 +1,16 @@
 {
-    "files.watcherExclude": {
-        "**/target/**": true
-    }
+  "files.watcherExclude": {
+    "**/target/**": true,
+    "**/.direnv/**": true
+  },
+  "files.exclude": {
+    "**/.direnv": true
+  },
+  "search.exclude": {
+    "**/.direnv": true
+  },
+  "dotnet.defaultSolution": "Album.sln",
+  "terminal.integrated.env.linux": {
+    "TMPDIR": "/tmp"
+  }
 }

@@ -137,7 +137,7 @@ namespace Startfenster
 			DrehwinkelArray = (int[])drehwinkelarray.Clone();
 
 			Gtk.Application.Init();
-			Console.WriteLine("Nun soll das Startfenster erstellt werden.");
+			 
 			//Erstelle das StartFenster:
 			//[37]: "Erstelle dein Fotoalbum!"
 			_window = new Window(Localarray[37]);

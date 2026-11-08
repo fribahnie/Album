@@ -1,16 +1,20 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-        {      
-          "name": "AlbumEditor starten",      
-          "type": "coreclr",      
-          "request": "launch",      
-          "preLaunchTask": "build",      
-          "program": "${workspaceFolder}/bin/Debug/net10.0/Album.dll",      
-          "cwd": "${workspaceFolder}",      
-          "console": "integratedTerminal"    }
+    {
+      "name": "AlbumEditor starten",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/net10.0/Album.dll",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": {
+        "TMPDIR": "/tmp",
+        "LD_LIBRARY_PATH": "/nix/store/74a960jwvw6l13bbgyy59wljv1j6zcf6-gtk+3-3.24.52/lib:/nix/store/g53zsj7w1ng75r0d19ij2qgvqqk5lz22-gtk4-4.22.5/lib:/nix/store/c64nyas3p5zmnsqvzhlsjvvhbl8151qw-glib-2.88.3/lib:/nix/store/0p2b5hkyrvlcv28yrrr0g68fwjc7mbhk-pango-1.57.1/lib:/nix/store/r085lr0nlm98c382hz7v5cchfwvwpmia-cairo-1.18.4/lib:/nix/store/47lm6i23m443ps8d5kk2z4fs0zxdqmkh-gdk-pixbuf-2.44.8/lib:/nix/store/iv06y06c4h7231ri087q30j6ij8pgkjv-libadwaita-1.9.4/lib",
+        "XDG_DATA_DIRS": "/nix/store/1pxsfca85jkysdvy39716lslr5n5bh75-gsettings-desktop-schemas-50.1/share/gsettings-schemas/gsettings-desktop-schemas-50.1:/nix/store/1pxsfca85jkysdvy39716lslr5n5bh75-gsettings-desktop-schemas-50.1/share:/run/current-system/sw/share"
+      },
+      "stopAtEntry": false
+    }
   ]
 }
